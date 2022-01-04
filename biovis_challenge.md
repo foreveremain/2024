@@ -1,0 +1,152 @@
+---
+layout: page
+title: BioVis@IEEE Challenges Workshop
+permalink: /biovisChallenges_vis/
+back_title: IEEE VIS 2021
+back_url: ieeevis
+---
+<style>
+ul.dots {
+	padding-left:40px;
+}
+ul.dots li{
+	list-style-type: disc;
+}
+table td{
+    vertical-align:top;
+}
+table td{
+	border:1px solid #ccc
+}
+img.img_table{
+	width:200px;
+}
+.main_img img{
+	width:100%;
+}
+</style>
+
+<!--<br><br>
+<div style="background-color: #f2f2f2; border-style: solid; border-color: #009e9d; padding: 5px;">
+<h3> Submission for the 2020 BioVis challenges are now closed. Check out all the great talks coming up at <a href = " {{site.baseurl}}/program_ieee" > our virtual event </a> on October 26th 2020 </h3>
+</div>-->
+
+## SUBMISSION INSTRUCTIONS
+Please send a two-page PDF abstract with unlimited additional figures and a poster draft (max 10MB) to 
+[biovis_challenge@ieeevis.org](mailto:biovis_challenge@ieeevis.org) before **September 21st 2021, 23:59 PDT**. 
+Please also prepare a 5 minute pitch on video at the time. We will send you the instructions to submit this after the original submission.
+
+## BioVIS CHALLENGE: “Spatial –omics Visualization” 
+Recent years have witnessed an explosion in spatial –omics technologies, such as spatial transcriptomics or proteomics. Nature Methods has declared spatial transcriptomics the method of the year [1], recognizing its importance. These -omics methods measure the expressions of tens of proteins to thousands of biomolecules simultaneously and map the corresponding values to spatial positions in tissue. They mostly (especially in proteomics) acquire data at sub-cellular resolution, allowing the identification of individual cells and their interplay in tissue and, as such, offer unprecedented insights into the complex and diverse tissue microenvironment. However, visually exploring spatial data is still a highly challenging task.
+
+<span class="main_img">![Spatial proteomics visual data analysis when using Imaging Mass Cytometry.](/images/challange/image7.png)</span>
+
+For this year’s BioVis Challenge, we teamed up with cancer biologists from the Leiden University Medical Center, who produced an Imaging Mass Cytometry (IMC) dataset. The dataset includes images from 21 colon cancers classified into four molecular subtypes. Each image is in the order of 1.000 by 1.000 pixels with 40 values (proteins) per pixel. We provide raw image data, segmentation masks of the contained cells, and labels for each cell type.
+
+**The BioVis Challenge goal is to visualize spatial patterns in spatial -omics data <span style="text-decoration: underline">using either the dataset provided, OR other similar spatial -omics data you are working on.</span>** The appropriate patterns can include: i) cell colocalization; ii) protein/gene distribution within the samples or on co-localized cells; or iii) others of your choice! Based on different data facets, different approaches are possible. You can use one data facet or any combination!
+
+## CHALLENGE TASKS
+Here are some potential challenges you can address in visualizing the provided data. We invite submissions tackling any number of these or other problems!
+
+1. <span style="text-decoration: underline">**Visualize common cell co-localization patterns**</span> based on **segmented cells and their labels.** e.g. You can use a simple glyph to aggregate common motifs in a small multiples view (Somarakis et al. [2]). ![](/images/challange/image4.png)
+
+1. <span style="text-decoration: underline">**Identify and visualize sample-specific cell neighborhoods**</span> based on **segmented cells and their labels**. Special care is needed for neighborhoods that (i) are sample-specific, consisting of cell types that are unique to, or more prevalent at that sample and (ii) include rare cell types which are often drowned out by neighborhoods of predominant types in that sample.
+
+1. <span style="text-decoration: underline">**Visualize distinct protein distribution patterns within different cells**</span> by using **segmented cells and labels** as well as visualizing the **pixel data**. (i) Can you identify communicating cells through different protein distributions at the boundary?  (ii) Can the labels be refined based on this spatial information?
+
+1. Can you visualize the data effectively with a <span style="text-decoration: underline">**segmentation free approach**</span> by using the **pixel data** only? Can this provide more insight into spatial patterns than segmented data?
+
+1. Can you <span style="text-decoration: underline">**improve segmentation masks**</span> using **pixel data** of all dimensions? Segmentation masks are usually based on a few dimensions; maybe cells can be segmented/visualized better by using all, or a selected set of dimensions of the raw **pixel data**.
+
+### Dataset
+<ul class="dots">
+    <li> Real data on 22 colorectal cancers classified into 4 molecular subtypes, with up to 3 samples per cancer (60 samples total), generated by IMC. 39 proteins were measured simultaneously. Each pixel covers an area of 1µm2.</li>
+    <li> <strong>Raw pixel</strong> data as tiff images, where every image is an 8 bit grayscale encoding the measured expression of one protein. Additionally, we provide a binarized version of the data following a protocol in [3] in the same structure.</li>
+    <li> <strong>Segmentation masks</strong> as 32 bit tiff image files, where all pixels assigned to a cell are inscribed with a unique integer id.</li>
+    <li> <strong>Protein measurements</strong> aggregated per cell, according to the above segmentation.</li>
+    <li> <strong>Cell labels</strong> table that assigns a cell type label to every cell id from the segmentation masks.</li>
+</ul>  
+[The complete dataset can be downloaded here.](https://surfdrive.surf.nl/files/index.php/s/D4yWR3JJSlbmMTj)
+
+**Disclaimer:** The provided dataset is currently not published and is provided for the purpose of this BioVis Challenge only. It must not be used for other publications until after the challenge is concluded and presented at the BioVis Challenge workshop @ IEEE Vis 2021 (25 October 2021). 
+
+<table>
+<tr>
+	<td><i>sample_ROI_information.csv</i></td>
+	<td>
+		Information on each sample.<br/><br/>
+		<strong>id:</strong> sample name<br/><br/>
+		<strong>CRC:</strong> patient/cancer signifier (multiple samples per cancer)<br/><br/>
+		<strong>CMS:</strong> cancer molecular subtype	
+	</td>
+	<td><img class="img_table" src="/2021/images/challange/image9.png"></td>
+</tr>
+
+<tr>
+	<td><i>cell_labels/ROIXXX_cell_labels.csv</i></td>
+	<td>
+		One csv file per sample.<br/><br/>
+		Each file contains a single column, with each row number corresponding to a cell ID in <i>segmentation_mask.tiff</i>. Each row contains the cell type label for the corresponding cell in the sample.<br/><br/> 
+		The labels can be used for example to work directly on cell-based neighborhood visualizations, without using protein information.
+	</td>
+	<td><img class="img_table" src="/2021/images/challange/image8.png"></td>
+</tr>
+
+<tr>
+	<td><i>aggregated_intensities/ ROIXXX_aggregated_intensities.csv</i></td>
+	<td>
+		One csv file per sample.<br/><br/>
+		Each file contains pixel fraction per cell that expresses each measured protein, based on data thresholds. Last few columns contain some morphological features.<br/><br/>
+		<i>Cell_id</i> column corresponds to those from <i>segmentation_mask.tiff</i>.<br/><br/>
+		Image_id column can be ignored.
+	</td>
+	<td><img class="img_table" src="/2021/images/challange/image2.png"></td>
+</tr>
+
+<tr>
+	<td><i>ROIs</i> folder</td>
+	<td>
+		Contains subfolders for each sample in <i>sample_ROI_information.csv</i>.<br/><br/>
+		Additionally DNA expression is provided in <i>DNA1.tiff</i> and <i>DNA2.tiff</i>. DNA might be useful for segmentation tasks but are not relevant for cell type identification, hence we provide them separately.
+	</td>
+	<td><img class="img_table" src="/2021/images/challange/image3.png"></td>
+</tr>
+
+<tr>
+	<td><i>raw</i> and <i>thresholded</i> folders</td>
+	<td>
+		The <i>raw</i> and <i>thresholded</i> folders contain the sample images.<br/><br/>
+		The 39 measured proteins are saved in individual <i>.tiff</i> files which will be combined for multi-dimensional analysis.<br/><br/>
+		Filenames are named after their protein.<br/><br/>
+		All images are 8bit grayscale <i>.tiff</i>
+	</td>
+	<td><img class="img_table" src="/2021/images/challange/image5.jpg"></td>
+</tr>
+
+<tr>
+	<td><i>DNA1.tiff</i> <br/> <i>DNA2.tiff</i></td>
+	<td>
+		Raw DNA measurements that might be useful for segmentation tasks but are not relevant for cell type identification, hence we provide them separately.<br/><br/>
+		Images are 8bit grayscale <i>.tiff</i>
+	</td>
+	<td><img class="img_table" src="/2021/images/challange/image1.png"></td>
+</tr>
+
+<tr>
+	<td><i>segmentation_mask.tiff</i></td>
+	<td>
+		IMC cell segmentation following the pipeline from Bodenmiller: <a href="https://github.com/BodenmillerGroup/ImcSegmentationPipeline">https://github.com/BodenmillerGroup/ImcSegmentationPipeline</a> <br/>
+		Segmentation is provided as a 32bit single-channel tiff image, where each cell is labelled with a unique 32 bit integer <strong>(starting at 1!)</strong>. For illustration on the right, we assigned a random color to each unique number (cell).
+
+	</td>
+	<td><img class="img_table" src="/2021/images/challange/image6.png"></td>
+</tr>
+
+</table>
+
+
+[1] Marx, V. **Method of the Year: spatially resolved transcriptomics.** Nature Methods 18, 9–14 (2021). https://doi.org/10.1038/s41592-020-01033-y
+
+[2] Somarakis, A. et al., **ImaCytE: Visual Exploration of Cellular Microenvironments for Imaging Mass Cytometry Data.** IEEE Transactions on Visualization and Computer Graphics, 27(1): pp. 98–110, 2021. https://doi.org/10.1109/TVCG.2019.2931299
+
+[3] Ijsselsteijn, M.E. et al., **Semi-Automated Background Removal Limits Loss of Data and Normalises the Images for Downstream Analysis of Imaging Mass Cytometry Data.** bioRxiv, 2020. https://dx.doi.org/10.1101/2020.11.26.399717
