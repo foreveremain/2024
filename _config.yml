@@ -1,19 +1,19 @@
 # Site settings
-title: "BioVis 2021"
+title: "BioVis 2022"
 email: "website@biovis.net"
 description: "Biological Data Visualization"
-baseurl: "/2021"
+baseurl: "/2022"
 #url: "http://biovis.github.io/biovis_2016"
 url: "http://biovis.net"
-conferenceshort: "BioVis 2021"
+conferenceshort: "BioVis 2022"
 #FIX ME: the event number is most likely not correct
-eventNum: "11th" 
-IEEEconferencedate: "October 25, 2021"
-IEEEconferenceplace: "Virtual Event"
-ISMBconferencedate: "July 26 - 27, 2021"
-ISMBconferenceplace: "Virtual Event"
-year: 2021
-ismblink: "https://www.iscb.org/ismbeccb2021"
+eventNum: "12th" 
+IEEEconferencedate: "TBA"
+IEEEconferenceplace: "TBA"
+ISMBconferencedate: "TBA"
+ISMBconferenceplace: "TBA"
+year: 2022
+ismblink: "https://www.iscb.org/ismbeccb2022"
 
 # Old deadlines so I remember what they're called
 # When everything breaks
@@ -26,13 +26,13 @@ ismblink: "https://www.iscb.org/ismbeccb2021"
 #ISMB_deadline_poster: "TBD"
 #ISMB_hl_and_nresearch_notiication: "TBD"
 
-ismb_paper_submission_deadline: "January 28, 2021"
-ismb_paper_conditional_accept: "March 12, 2021"
-ismb_paper_revised: "March 26, 2021"
-ismb_paper_final_acceptance: "April 12, 2021"
+ismb_paper_submission_deadline: "TBA"
+ismb_paper_conditional_accept: "TBA"
+ismb_paper_revised: "TBA"
+ismb_paper_final_acceptance: "TBA"
 
-ismb_poster_submission_deadline: "May 6, 2021"
-ismb_talk_submission_deadline: "May 6, 2021"
+ismb_poster_submission_deadline: "TBA"
+ismb_talk_submission_deadline: "TBA"
 
 #ismb_poster_accept: "TBA"
 #ismb_poster_oral_notification: TBA"
