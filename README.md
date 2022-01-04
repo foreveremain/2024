@@ -10,7 +10,8 @@ This is automatically built and moved to the folder of the repository at [https:
 
 # To create a next year fork you need to do the following:
 
-1) create a new repository (e.g., 2022) at [https://github.com/biovis/](https://github.com/biovis/)
+1) create a new repository (e.g., 2023) at [https://github.com/biovis/](https://github.com/biovis/)
+	- note that the repository should be public and the main branch should be named gh-pages
 
 2) update the _config.yml file
 
