@@ -1,6 +1,8 @@
 _site/
 .sass-cache/
+.jekyll-cache/
 _deploy/
+/Gemfile
 /Gemfile.lock
 *.sublime-*
 css/site.css
