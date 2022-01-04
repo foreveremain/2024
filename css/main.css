@@ -547,6 +547,10 @@ hr.style-eight:after {
    cursor: default;
 }
 
+.side-nav .disabled,
+.dropdown-content .disabled {
+	color: lightgray;
+}
 
 .helper {
     display: inline-block;
