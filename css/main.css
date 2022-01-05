@@ -1,7 +1,7 @@
-﻿@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+﻿@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #2c3e50;
 }
 
@@ -24,7 +24,6 @@ h3 {
 h4 {
     font-size: 1.3em;
 }
-
 
 h5 {
     font-size: 1.1em;
@@ -52,13 +51,11 @@ nav a {
 }
 
 .home-info-container {
-   margin-top: -17px;
+    margin-top: -17px;
     height: 250px;
-    background: #2c3e50 url('../images/home-image.svg') bottom center no-repeat;
+    background: #2c3e50 url("../images/home-image.svg") bottom center no-repeat;
     background-size: 70%;
-
 }
-
 
 @media screen and (max-width: 480px) {
     .home-info-container {
@@ -90,7 +87,6 @@ nav a {
     }
 }
 
-
 .home-info-container p {
     width: 100%;
     text-align: center;
@@ -99,14 +95,13 @@ nav a {
     font-weight: normal;
     font-size: 1.4em;
     color: white;
-
 }
 
 .home-info-section {
-  margin-top:-17px;
-  margin-bottom:-20px;
-  background: #2c3e50 ;
-  background-size: 70%;
+    margin-top: -17px;
+    margin-bottom: -20px;
+    background: #2c3e50;
+    background-size: 70%;
 }
 
 .home-info-section p {
@@ -117,43 +112,39 @@ nav a {
     font-weight: normal;
     font-size: 1.4em;
     color: white;
-
 }
 
-
 /* Infobox code from: https://isabelcastillo.com/error-info-messages-css */
-.infobox{
-    color: #00529B;
-    background-color: #BDE5F8;
-    border-radius:.5em;
+.infobox {
+    color: #00529b;
+    background-color: #bde5f8;
+    border-radius: 0.5em;
 }
 
 .my-notify-info {
-    padding:10px;
-    margin:10px 0;
- 
-}
-.my-notify-info:before{
-    font-family:FontAwesome;
-    font-style:normal;
-    font-weight:400;
-    speak:none;
-    display:inline-block;
-    text-decoration:inherit;
-    width:1em;
-    margin-right:.2em;
-    text-align:center;
-    font-variant:normal;
-    text-transform:none;
-    line-height:1em;
-    margin-left:.2em;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale
+    padding: 10px;
+    margin: 10px 0;
 }
 .my-notify-info:before {
-    content:"\f05a";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: 0.2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: 0.2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-
+.my-notify-info:before {
+    content: "\f05a";
+}
 
 .blue-section {
     background-color: #35495e;
@@ -183,9 +174,8 @@ nav a {
     padding: 10px;
     margin: 10px !important;
     min-height: 140px;
-    min-width:150px;
+    min-width: 150px;
 }
-
 
 .event:hover {
     background-color: #14a085;
@@ -197,7 +187,7 @@ nav a {
 }
 
 .lightgrey-section {
-    background-color: #F8FDFE;
+    background-color: #f8fdfe;
     padding-bottom: 20px;
 }
 
@@ -247,7 +237,8 @@ footer a {
     display: inline-block;
 }
 
-.side-nav li:hover, .side-nav li.active {
+.side-nav li:hover,
+.side-nav li.active {
     background-color: transparent;
     color: #21a186;
 }
@@ -271,13 +262,14 @@ ul.post-list {
     margin-bottom: 10px;
     background-color: #2c3e50;
     padding: 15px;
-    font-size: .9em;
+    font-size: 0.9em;
 }
 
-.post-list-item p, .post-list-item-event p {
+.post-list-item p,
+.post-list-item-event p {
     margin: 0;
-    -webkit-margin-before: .4em;
-    -webkit-margin-after: .3em;
+    -webkit-margin-before: 0.4em;
+    -webkit-margin-after: 0.3em;
 }
 
 .post-list-item h4 {
@@ -285,7 +277,7 @@ ul.post-list {
     font-size: 1.5em;
 }
 
-.post-list-item .type{
+.post-list-item .type {
     background-color: #2c3e50;
     color: white !important;
     padding: 3px 5px;
@@ -301,7 +293,6 @@ ul.post-list {
 .post-list-item .type:hover {
     background-color: #35495e;
 }
-
 
 .post-list-title {
     font-size: 1.2em;
@@ -348,142 +339,133 @@ ul.post-list {
     border-radius: 5px;
 }
 
-.regtable{
+.regtable {
     font-size: 12px;
 }
-.regtable thead{
+.regtable thead {
     font-weight: bold;
     background-color: #ccc;
 }
-.regtable td {background-color: #fffecf;}
-.regtable td:nth-child(1) { background-color: #c3dffd; }
-
-
+.regtable td {
+    background-color: #fffecf;
+}
+.regtable td:nth-child(1) {
+    background-color: #c3dffd;
+}
 
 /****** Speakers (TAKEN FROM VDS 2015)****/
 
 .talk {
-  padding: 10px 5px 10px 10px;
-  border: 1px solid #cccccc;
-  margin: 5px 0px 5px 0px;
-
+    padding: 10px 5px 10px 10px;
+    border: 1px solid #cccccc;
+    margin: 5px 0px 5px 0px;
 }
 
-.tbioabstract
-{
-  width: 75%;
-  padding: 10px 0px 10px 0px;
+.tbioabstract {
+    width: 75%;
+    padding: 10px 0px 10px 0px;
 }
 .ttitle {
-  font-weight: 800;
-  font-size: 1.1em ;
+    font-weight: 800;
+    font-size: 1.1em;
 }
 .tspeaker {
-  font-weight: 600;
-  font-size: 1em ;
+    font-weight: 600;
+    font-size: 1em;
 }
-
 
 .ptitle {
-  font-weight: 700;
-  font-size: 1em ;
+    font-weight: 700;
+    font-size: 1em;
 }
 .pauthor {
-  font-weight: 500;
-  font-size: 0.9em ;
+    font-weight: 500;
+    font-size: 0.9em;
 }
 
 .tportrait {
-  float: right;
-  padding: 10px 0px 10px 0px;
-  font-size: 0.6em;
-
+    float: right;
+    padding: 10px 0px 10px 0px;
+    font-size: 0.6em;
 }
 
-@media screen and (max-width: 600px){
-  .tportrait {
-  width: 35%
-
-  }
+@media screen and (max-width: 600px) {
+    .tportrait {
+        width: 35%;
+    }
 }
-
 
 .tabstract {
-  padding: 5px 5px 5px 5px;
-  /*border: 1px solid #cccccc;*/
-  /*background-color: #eeeeee;*/
+    padding: 5px 5px 5px 5px;
+    /*border: 1px solid #cccccc;*/
+    /*background-color: #eeeeee;*/
 }
 
 .tbio {
-  padding: 5px 5px 5px 5px;
-  /*border: 1px solid #cccccc;*/
-
+    padding: 5px 5px 5px 5px;
+    /*border: 1px solid #cccccc;*/
 }
 
-.sumTime{
-  font-weight: 600;
-  width: 120px;
-  float: left;
+.sumTime {
+    font-weight: 600;
+    width: 120px;
+    float: left;
 }
 
-.sumTime2{
-  font-weight: 600;
-  font-size:20px;
-  width: 120px;
-  float: left;
+.sumTime2 {
+    font-weight: 600;
+    font-size: 20px;
+    width: 120px;
+    float: left;
 }
 
-.sumContent{
- font-weight: 600;
- font-size:20px;
+.sumContent {
+    font-weight: 600;
+    font-size: 20px;
 }
 
-@media screen and (max-width: 600px){
-  .sumContent {
+@media screen and (max-width: 600px) {
+    .sumContent {
+        position: relative;
+        left: 10px;
+        width: 100%;
+        clear: both;
+        margin-left: 0;
+    }
+}
+
+.sumDetails {
     position: relative;
-    left: 10px;
-    width: 100%;
-    clear: both;
-    margin-left: 0;
-
-  }
+    left: 100px;
 }
 
-.sumDetails{
-  position: relative;
-  left: 100px;
-}
-
-@media screen and (max-width: 600px){
-  .sumDetails {
-    position: relative;
-    left: 10px;
-    width: 100%;
-    clear: both;
-    margin-left: 0;
-
-  }
+@media screen and (max-width: 600px) {
+    .sumDetails {
+        position: relative;
+        left: 10px;
+        width: 100%;
+        clear: both;
+        margin-left: 0;
+    }
 }
 
 .talk {
-  padding: 10px 5px 10px 10px;
-  border: 1px solid #cccccc;
-  margin: 10px 0px 10px 0px;
-
+    padding: 10px 5px 10px 10px;
+    border: 1px solid #cccccc;
+    margin: 10px 0px 10px 0px;
 }
 
-.tbioabstract
-{
-  width: 75%;
-  padding: 10px 0px 10px 0px;
+.tbioabstract {
+    width: 75%;
+    padding: 10px 0px 10px 0px;
 }
 .ttitle {
-  font-weight: 800;
-  font-size: 1.1em ;
+    font-weight: 800;
+    font-size: 1.1em;
 }
 .tspeaker {
-  font-weight: 600;
-  font-size: 1em ;
+    font-weight: 600;
+    font-size: 1em;
 }
 
 hr.style-one {
@@ -513,13 +495,13 @@ hr.style-eight:after {
 }
 
 .float-my-children > * {
-    float:left;
+    float: left;
     padding: 10px 0px 10px 0px;
-    margin-right:5px;
+    margin-right: 5px;
 }
 
 .clearfix {
-    *zoom:1 /* for IE */
+    *zoom: 1; /* for IE */
 }
 
 .clearfix:before,
@@ -535,21 +517,21 @@ hr.style-eight:after {
 /* end clearfix*/
 
 .wordwrap {
-   white-space: pre-wrap;      /* CSS3 */
-   white-space: -moz-pre-wrap; /* Firefox */
-   white-space: -pre-wrap;     /* Opera <7 */
-   white-space: -o-pre-wrap;   /* Opera 7 */
-   word-wrap: break-word;      /* IE */
+    white-space: pre-wrap; /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap; /* Opera <7 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* IE */
 }
 
 .disabled {
-   pointer-events: none;
-   cursor: default;
+    pointer-events: none;
+    cursor: default;
 }
 
 .side-nav .disabled,
 .dropdown-content .disabled {
-	color: lightgray;
+    color: lightgray;
 }
 
 .helper {
