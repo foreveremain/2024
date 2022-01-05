@@ -57,13 +57,6 @@ nav a {
     color: var(--white-on-dark);
 }
 
-.home-info-container {
-    margin-top: -17px;
-    height: 250px;
-    background: #2c3e50 url("../images/home-image.svg") bottom center no-repeat;
-    background-size: 70%;
-}
-
 @media screen and (max-width: 480px) {
     .home-info-container {
         background-size: 300px;
@@ -105,20 +98,22 @@ nav a {
 }
 
 .home-info-section {
-    margin-top: -17px;
-    margin-bottom: -20px;
     background: #2c3e50;
-    background-size: 70%;
 }
 
 .home-info-section p {
     width: 100%;
     text-align: center;
     padding: 20px !important;
-    margin-bottom: 50px;
     font-weight: normal;
     font-size: 1.4em;
     color: var(--white-on-dark);
+}
+
+.home-info-section img {
+	width: 100%;
+	height: auto;
+	display: block;
 }
 
 /* Infobox code from: https://isabelcastillo.com/error-info-messages-css */
