@@ -54,3 +54,4 @@ collections:
 google_analytics: "'UA-22015250-1'"
 use_analytics: true
 encoding: utf-8
+lang: en-US
