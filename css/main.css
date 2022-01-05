@@ -526,3 +526,8 @@ hr.style-eight:after {
 svg {
     fill: currentColor;
 }
+
+.container {
+	/** prevent margin collapse */
+	overflow-y: auto;
+}
