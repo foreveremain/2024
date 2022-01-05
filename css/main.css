@@ -1,12 +1,17 @@
 ﻿@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+:root {
+	--link-color-on-dark: #18d1a9;
+	--link-color-on-white: #27a78b;
+}
+
 body {
     font-family: "Source Sans Pro", sans-serif;
     color: #2c3e50;
 }
 
 a {
-    color: #00a6ac;
+    color: var(--link-color-on-white);
 }
 
 strong {
@@ -43,7 +48,7 @@ nav ul a {
 }
 
 nav ul a.active {
-    color: #00a6ac;
+    color: var(--link-color-on-dark);
 }
 
 nav a {
@@ -155,7 +160,7 @@ nav a {
 }
 
 .blue-section a {
-    color: #21a186;
+	color: var(--link-color-on-dark);
 }
 
 .event {
@@ -224,7 +229,7 @@ footer.page-footer {
 }
 
 footer a {
-    color: #00a6ac !important;
+    color: var(--link-color-on-dark);
 }
 
 .breadcrumbs {
@@ -286,7 +291,7 @@ ul.post-list {
 }
 
 .post-list-item .type a {
-    color: #21a186;
+    color: var(--link-color-on-dark);
     text-decoration: none;
 }
 
@@ -333,7 +338,7 @@ ul.post-list {
 }
 
 .author {
-    background-color: #21a186;
+    background-color: var(--link-color-on-white);
     padding: 4px 6px;
     color: white;
     border-radius: 5px;
