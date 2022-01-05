@@ -3,6 +3,8 @@
 :root {
 	--link-color-on-dark: #18d1a9;
 	--link-color-on-white: #27a78b;
+	/** Mute the white a tiny bit */
+	--white-on-dark: #f6f7f9;
 }
 
 body {
@@ -42,7 +44,7 @@ nav {
 }
 
 nav ul a {
-    color: white;
+    color: var(--white-on-dark);
     padding-top: 5px;
     font-weight: bolder;
 }
@@ -52,7 +54,7 @@ nav ul a.active {
 }
 
 nav a {
-    color: white;
+    color: var(--white-on-dark);
 }
 
 .home-info-container {
@@ -99,7 +101,7 @@ nav a {
     margin-bottom: 50px;
     font-weight: normal;
     font-size: 1.4em;
-    color: white;
+    color: var(--white-on-dark); 
 }
 
 .home-info-section {
@@ -116,7 +118,7 @@ nav a {
     margin-bottom: 50px;
     font-weight: normal;
     font-size: 1.4em;
-    color: white;
+    color: var(--white-on-dark);
 }
 
 /* Infobox code from: https://isabelcastillo.com/error-info-messages-css */
@@ -153,7 +155,7 @@ nav a {
 
 .blue-section {
     background-color: #35495e;
-    color: white;
+    color: var(--white-on-dark);
     text-align: center;
     padding: 50px !important;
     font-size: 1.2em;
@@ -234,7 +236,7 @@ footer a {
 
 .breadcrumbs {
     background-color: #2c3e50;
-    color: white;
+    color: var(--white-on-dark);
     padding: 1px 1px 1px 10px;
 }
 
@@ -284,7 +286,7 @@ ul.post-list {
 
 .post-list-item .type {
     background-color: #2c3e50;
-    color: white !important;
+    color: var(--white-on-dark) !important;
     padding: 3px 5px;
     border-radius: 3px;
     display: inline-block;
@@ -324,7 +326,7 @@ ul.post-list {
     background-color: #21a186;
     border-radius: 5px;
     padding: 5px 7px;
-    color: white;
+    color: var(--white-on-dark);
     display: inline-block;
 }
 
@@ -340,7 +342,7 @@ ul.post-list {
 .author {
     background-color: var(--link-color-on-white);
     padding: 4px 6px;
-    color: white;
+    color: var(--white-on-dark);
     border-radius: 5px;
 }
 
