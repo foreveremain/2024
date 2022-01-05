@@ -5,14 +5,15 @@
 	--link-color-on-white: #27a78b;
 
 	/** Mute the white a tiny bit */
-	--white-on-dark: #f6f7f9;
+	--text-color-on-dark: #f6f7f9;
+	--text-color-on-emphasis: #222f3a;
 
 	/** Dark blue backgrounds */
 	--background-color-darker: #2c3e50;
 	--background-color-dark: #35495e;
 
 	/** The green boxes */
-	--background-color-emphasis: #21a186;
+	--background-color-emphasis: #00b992;
 }
 
 body {
@@ -52,7 +53,7 @@ nav {
 }
 
 nav ul a {
-    color: var(--white-on-dark);
+    color: var(--text-color-on-dark);
     padding-top: 5px;
     font-weight: bolder;
 }
@@ -62,7 +63,7 @@ nav ul a.active {
 }
 
 nav a {
-    color: var(--white-on-dark);
+    color: var(--text-color-on-dark);
 }
 
 .home-info-container p {
@@ -72,7 +73,7 @@ nav a {
     margin-bottom: 50px;
     font-weight: normal;
     font-size: 1.4em;
-    color: var(--white-on-dark); 
+    color: var(--text-color-on-dark); 
 }
 
 .home-info-section {
@@ -85,7 +86,7 @@ nav a {
     padding: 20px !important;
     font-weight: normal;
     font-size: 1.4em;
-    color: var(--white-on-dark);
+    color: var(--text-color-on-dark);
 }
 
 .home-info-section img {
@@ -128,7 +129,7 @@ nav a {
 
 .blue-section {
     background-color: var(--background-color-dark);
-    color: var(--white-on-dark);
+    color: var(--text-color-on-dark);
     text-align: center;
     padding: 50px !important;
     font-size: 1.2em;
@@ -140,11 +141,18 @@ nav a {
 
 .event {
     background-color: var(--background-color-emphasis);
-    color: var(--background-color-darker);
+    color: var(--text-color-on-emphasis);
     border-radius: 6px;
     padding: 10px;
     margin: 10px !important;
     min-height: 300px;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+}
+
+.event svg {
+	margin-top: 1em;
+	width: 6em;
+	height: 6em;
 }
 
 .eventSplit {
@@ -155,10 +163,6 @@ nav a {
     margin: 10px !important;
     min-height: 140px;
     min-width: 150px;
-}
-
-.event:hover {
-    background-color: #14a085;
 }
 
 .grey-section {
@@ -173,7 +177,7 @@ nav a {
 
 .green-section {
     background-color: var(--background-color-emphasis);
-    color: var(--background-color-darker);
+    color: var(--text-color-on-emphasis);
     text-align: center;
     padding: 20px 50px;
     font-size: 1.2em;
@@ -208,7 +212,7 @@ footer a {
 
 .breadcrumbs {
     background-color: var(--background-color-darker);
-    color: var(--white-on-dark);
+    color: var(--text-color-on-dark);
     padding: 1px 1px 1px 10px;
 }
 
@@ -258,7 +262,7 @@ ul.post-list {
 
 .post-list-item .type {
     background-color: var(--background-color-darker);
-    color: var(--white-on-dark) !important;
+    color: var(--text-color-on-dark) !important;
     padding: 3px 5px;
     border-radius: 3px;
     display: inline-block;
@@ -298,7 +302,7 @@ ul.post-list {
     background-color: var(--background-color-emphasis);
     border-radius: 5px;
     padding: 5px 7px;
-    color: var(--white-on-dark);
+    color: var(--text-color-on-dark);
     display: inline-block;
 }
 
@@ -314,7 +318,7 @@ ul.post-list {
 .author {
     background-color: var(--link-color-on-white);
     padding: 4px 6px;
-    color: var(--white-on-dark);
+    color: var(--text-color-on-dark);
     border-radius: 5px;
 }
 
@@ -517,4 +521,8 @@ hr.style-eight:after {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
+}
+
+svg {
+    fill: currentColor;
 }
