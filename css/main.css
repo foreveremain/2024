@@ -204,6 +204,7 @@ nav a {
 
 footer.page-footer {
     background-color: var(--background-color-darker);
+	margin-top: 0;
 }
 
 footer a {
