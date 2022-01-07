@@ -5,7 +5,7 @@ layout: home
     <a class="event-box" href="{{site.baseurl}}/ismb">
         {% include_relative images/logos/ismb.svg %}
         <div class="event-details">
-            <div class="event-name">ISMB {{ site.year }} - Main Conference Event</div>
+            <div class="event-name">{{ site.ismb_conference_name }} - Main Conference Event</div>
             <div class="event-location">{{ site.ismb_conference_place }}</div>
             <div class="event-date">{{ site.ismb_conference_date }}</div>
         </div>
@@ -21,13 +21,13 @@ layout: home
     <div class="event-box">
         <div class="event-details">
             <div class="event-name">Important Dates</div>
-            <div class="event-date">
-                <strong>ISMB COSI Date:</strong> <time>{{ site.ismb_conference_date }}</time><br />
-                <strong>ISMB Proceedings Paper Submission Deadline:</strong> <time>{{
-                site.ismb_paper_submission_deadline }}</time><br />
-                <strong>ISMB Talk Submission Deadline:</strong> <time>{{ site.ismb_talk_submission_deadline }}</time><br />
-                <strong>ISMB Poster Submission Deadline:</strong> <time>{{ site.ismb_poster_submission_deadline }}</time>
-            </div>
+            <ul class="event-date">
+                <li>COSI Date: <time>{{ site.ismb_conference_date }}</time></li>
+                <li>ISMB Proceedings Paper Submission Deadline: <time>{{ site.ismb_paper_submission_deadline }}</time></li>
+                <li>ISMB Talk Submission Deadline: <time>{{ site.ismb_talk_submission_deadline }}</time></li>
+                <li>ISMB Poster Submission Deadline: <time>{{ site.ismb_poster_submission_deadline }}</time></li>
+                <li><a href="{{ site.ismb_conference_key_dates_link }}">See ISMB Key Dates for more details</a></li>
+            </ul>
         </div>
     </div>
 </section>
@@ -52,8 +52,7 @@ layout: home
             {{site.IEEEconferenceplace}}. These events serve as a platform for researchers from biology,
             bioinformatics, and information visualization fields to increase the impact of data visualization
             approaches in biology, and to initiate interdisciplinary collaborations. Get involved in our events at a
-            conference or challenge (or all three!). Important dates for submissions are available below, and on the
-            detailed pages for each event.
+            conference or challenge (or all three!).
         </p>
     </div>
 

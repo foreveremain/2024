@@ -184,6 +184,11 @@ nav a {
 	height: 6em;
 }
 
+.event-box a {
+	color: var(--text-color-on-emphasis);
+	text-decoration: underline;
+}
+
 
 .eventSplit {
     background-color: var(--background-color-emphasis);
