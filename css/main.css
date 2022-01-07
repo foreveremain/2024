@@ -30,6 +30,10 @@
 body {
     font-family: "Source Sans Pro", sans-serif;
     color: var(--background-color-darker);
+
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 a {
@@ -607,6 +611,10 @@ hr.style-eight:after {
 
 svg {
     fill: currentColor;
+}
+
+article.container {
+	flex-grow: 1;
 }
 
 article.container {

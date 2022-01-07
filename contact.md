@@ -4,6 +4,8 @@ title: Contact
 menu: main
 ---
 
+# Contact
+
 For general inquiries about the BioVis conference please send a message to : info [at] biovis [dot] net
 
 For inquiries about submitting to BioVis please send a message to : submissions [at] biovis [dot] net
