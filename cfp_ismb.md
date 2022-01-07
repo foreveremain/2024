@@ -6,9 +6,9 @@ back_title: ISMB
 back_url: ismb
 ---
 
-# Call for Participation: BioVis@ISMB 2022
+# Call for Participation: BioVis@{{ site.ismb_conference_name }}
 
-**Community of Special Interest (COSI) event at [ISMB 2022]({{ site.ismb_conference_link }})**  
+**Community of Special Interest (COSI) event at [{{ site.ismb_conference_name }}]({{ site.ismb_conference_link }})**  
 
 **{{ site.ismb_conference_date }}  
 {{ site.ismb_conference_place }}**
@@ -23,7 +23,7 @@ We invite submissions of original research articles as well as poster submission
 
 ## Symposium Format
 
-The symposium will be a one-day single-track event at [ISMB]({{ site.ismb_conference_link }}). It will feature keynotes and invited talks, paper sessions, highlight talks, and posters/demos. Primers will also be given to introduce key topics in visualization research.
+The symposium will be a one-day single-track event at [{{ site.ismb_conference_name }}]({{ site.ismb_conference_link }}). It will feature keynotes and invited talks, paper sessions, highlight talks, and posters/demos. Primers will also be given to introduce key topics in visualization research.
 
 ## Topics
 
@@ -56,7 +56,7 @@ Novel, unpublished work can be submitted as a paper to the ISMB Proceedings. If 
 
 #### Submission Guidelines
 
-Authors are required to submit a full paper by <time>{{ site.ismb_paper_submission_deadline }}</time> through the [ISMB submission site](https://www.iscb.org/ismb2022-submissions/proceedings), and must adhere to the submission guidelines also outlined on [the same page](https://www.iscb.org/ismb2022-submissions/proceedings).
+Authors are required to submit a full paper by <time>{{ site.ismb_paper_submission_deadline }}</time> through the [ISMB submission site]({{ site.ismb_paper_submission_link }}), and must adhere to the submission guidelines also outlined on [the same page]({{ site.ismb_paper_submission_link }}).
 
 **IMPORTANT: During submission please select the general subject of your submissions (the “AREA”), and then make sure to specify BioVis as the “TOPIC” of your submission to ensure your manuscript is assigned to our COSI.**
 
@@ -72,7 +72,7 @@ Participants are encouraged to submit short abstracts describing their recently 
 Published work: Authors are required to submit a short abstract (250 words) by <time>{{ site.ismb_talk_submission_deadline }}</time>. Abstracts should include a concise description of the work and may include descriptive figures. The previously published paper **must** be submitted along with the abstract, unless the paper is open access.
 
 Unpublished work: Authors are required to submit an extended abstract (1500 words) by <time>{{ site.ismb_talk_submission_deadline }}</time>.  The text should include a concise description of the work and have descriptive figures.  
-* [ISMB Abstract Guidelines](https://www.iscb.org/ismbeccb2022-submit/submit-abstracts)  
+* [ISMB Abstract Guidelines]({{ site.ismb_abstract_submission_link }})  
 <!-- TODO: Check link: * [**ISMB Talk Submission Form**](https://easychair.org/account/signin?l=Qtwki8qv7LdppT3m13DeXL#) (Select Biovis after logging in) -->
 
 ### 3. Posters and demos - *Submission Deadline: {{ site.ismb_poster_submission_deadline }} (with late posters deadline {{ site.ismb_late_poster_submission_deadline }})*
@@ -84,12 +84,12 @@ We invite participants to submit work in progress and preliminary results, previ
 Authors are required to submit a short abstract (250 words) and a supporting figure by <time>{{site.ismb_talk_submission_deadline}}</time>.  Abstracts should include a concise description of an idea, work in progress, preliminary results, visualization challenges, or previously published work presented at other venues that is also relevant for the BioVis community. If the submission is based on previous work, the published paper **must** be submitted along with the summary, unless the paper is open access, where instead a direct link to the open access version should be provided.
 
 Poster preparation instructions will be e-mailed to authors of accepted submissions.
-* [ISMB Abstract Guidelines](https://www.iscb.org/ismbeccb2022-submit/submit-abstracts)  
+* [ISMB Abstract Guidelines]({{ site.ismb_abstract_submission_link }})  
 <!-- TODO: Check link: * [**ISMB Poster Submission Form**](https://easychair.org/account/signin?l=Qtwki8qv7LdppT3m13DeXL#) (Select Biovis after logging in) -->
 
 ## Important Dates
 
-See [ISMB Key Dates](https://www.iscb.org/ismbeccb2022-keydates) for full details.
+See [ISMB Key Dates]({{ site.ismb_conference_key_dates_link }}) for full details.
 
 ### Deadlines and Notifications for ISMB Proceedings
 

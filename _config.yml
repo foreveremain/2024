@@ -25,6 +25,7 @@ ismb_conference_date: "July 10-14, 2022"
 ismb_conference_place: "Madison, WI, USA (or virtual)"
 ismb_conference_link: "https://www.iscb.org/ismb2022"
 ismb_conference_name: "ISMB 2022"
+ismb_conference_key_dates_link: "https://www.iscb.org/ismb2022-key-dates"
 
 ismb_paper_submission_deadline: "January 13, 2022"
 ismb_paper_conditional_accept: "TBA"
@@ -33,6 +34,9 @@ ismb_paper_final_acceptance: "TBA"
 ismb_poster_submission_deadline: "April 21, 2022"
 ismb_talk_submission_deadline: "April 21, 2022"
 ismb_late_poster_submission_deadline: "May 19, 2022"
+
+ismb_paper_submission_link: "https://www.iscb.org/ismb2022-submissions/proceedings"
+ismb_abstract_submission_link: "https://www.iscb.org/ismb2022-submissions/abstracts"
 
 #ismb_poster_accept: "TBA"
 #ismb_poster_oral_notification: TBA"
