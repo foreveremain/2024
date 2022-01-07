@@ -562,3 +562,11 @@ svg {
 	/** prevent margin collapse */
 	overflow-y: auto;
 }
+
+time {
+	white-space: nowrap;
+}
+
+p > time, li > time {
+	font-weight: bold;
+}

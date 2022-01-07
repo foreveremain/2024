@@ -15,21 +15,18 @@ layout: home
         <div class="event-details">
             <div class="event-name">IEEE VIS {{ site.year }} - Workshop</div>
             <div class="event-location">{{ site.IEEEconferenceplace }}</div>
-            <div class="event-date">{{ site.IEEEconferencedate }}</div>
+            <div class="event-date"><time>{{ site.IEEEconferencedate }}</time></div>
         </div>
     </a>
     <div class="event-box">
         <div class="event-details">
             <div class="event-name">Important Dates</div>
             <div class="event-date">
-                <strong>ISMB COSI Date:</strong> {{ site.ISMBconferencedate }} <br />
-                <strong>ISMB Proceedings Paper Submission Deadline:</strong> {{
-                site.ismb_paper_submission_deadline }} <br />
-                <strong>ISMB Talk Submission Deadline:</strong> {{ site.ismb_talk_submission_deadline }} <br />
-                <strong>ISMB Poster Submission Deadline:</strong> {{ site.ismb_poster_submission_deadline }}
-                <br />
-                <a href="{{site.ismblink}}-keydates" style="color:#2c3e50; text-decoration: underline;">See ISMB
-                    Key Dates for more details</a>
+                <strong>ISMB COSI Date:</strong> <time>{{ site.ISMBconferencedate }}</time><br />
+                <strong>ISMB Proceedings Paper Submission Deadline:</strong> <time>{{
+                site.ismb_paper_submission_deadline }}</time><br />
+                <strong>ISMB Talk Submission Deadline:</strong> <time>{{ site.ismb_talk_submission_deadline }}</time><br />
+                <strong>ISMB Poster Submission Deadline:</strong> <time>{{ site.ismb_poster_submission_deadline }}</time>
             </div>
         </div>
     </div>
