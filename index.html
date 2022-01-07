@@ -1,62 +1,50 @@
 ---
 layout: home
 ---
-<div class="row">
-    <div class="blue-section col s12">
-        <a href="{{site.baseurl}}/ismb">
-            <div class="col s12 m4">
-                <div class="row event center-align">
-                    {% include_relative images/logos/ismb.svg %}
-                    <div class="event-details">
-                        <div class="event-name">ISMB {{ site.year }} - Main Conference Event</div>
-                        <div class="event-location">{{ site.ISMBconferenceplace }}</div>
-                        <div class="event-date">{{ site.ISMBconferencedate }}</div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a href="{{site.baseurl}}/ieeevis">
-            <div class="col s12 m4">
-                <div class="row event center-align">
-                    {% include_relative images/logos/ieee.svg %}
-                    <div class="event-details">
-                        <div class="event-name">IEEE VIS {{ site.year }} - Workshop</div>
-                        <div class="event-location">{{ site.IEEEconferenceplace }}</div>
-                        <div class="event-date">{{ site.IEEEconferencedate }}</div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <div class="col s12 m4">
-            <div class="row event center-align">
-                <div class="event-details">
-                    <div class="event-name">Important Dates</div>
-                    <div class="event-date">
-                        <strong>ISMB COSI Date:</strong> {{ site.ISMBconferencedate }} <br />
-                        <strong>ISMB Proceedings Paper Submission Deadline:</strong> {{
-                        site.ismb_paper_submission_deadline }} <br />
-                        <strong>ISMB Talk Submission Deadline:</strong> {{ site.ismb_talk_submission_deadline }} <br />
-                        <strong>ISMB Poster Submission Deadline:</strong> {{ site.ismb_poster_submission_deadline }}
-                        <br />
-                        <a href="{{site.ismblink}}-keydates" style="color:#2c3e50; text-decoration: underline;">See ISMB
-                            Key Dates for more details</a>
-                    </div>
-                </div>
+<section class="blue-section event-boxes">
+    <a class="event-box" href="{{site.baseurl}}/ismb">
+        {% include_relative images/logos/ismb.svg %}
+        <div class="event-details">
+            <div class="event-name">ISMB {{ site.year }} - Main Conference Event</div>
+            <div class="event-location">{{ site.ISMBconferenceplace }}</div>
+            <div class="event-date">{{ site.ISMBconferencedate }}</div>
+        </div>
+    </a>
+    <a class="event-box" href="{{site.baseurl}}/ieeevis">
+        {% include_relative images/logos/ieee.svg %}
+        <div class="event-details">
+            <div class="event-name">IEEE VIS {{ site.year }} - Workshop</div>
+            <div class="event-location">{{ site.IEEEconferenceplace }}</div>
+            <div class="event-date">{{ site.IEEEconferencedate }}</div>
+        </div>
+    </a>
+    <div class="event-box">
+        <div class="event-details">
+            <div class="event-name">Important Dates</div>
+            <div class="event-date">
+                <strong>ISMB COSI Date:</strong> {{ site.ISMBconferencedate }} <br />
+                <strong>ISMB Proceedings Paper Submission Deadline:</strong> {{
+                site.ismb_paper_submission_deadline }} <br />
+                <strong>ISMB Talk Submission Deadline:</strong> {{ site.ismb_talk_submission_deadline }} <br />
+                <strong>ISMB Poster Submission Deadline:</strong> {{ site.ismb_poster_submission_deadline }}
+                <br />
+                <a href="{{site.ismblink}}-keydates" style="color:#2c3e50; text-decoration: underline;">See ISMB
+                    Key Dates for more details</a>
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="home-info-section">
+<section class="home-info-section">
     <div class="container">
         <p>The BioVis meetings are intended to educate, inspire, and engage visualization
             researchers in problems in biological data visualization, as well as bioinformatics and biology
             researchers in state-of-the-art visualization research.</p>
         <img src="{{ site.baseurl }}/images/home-image.svg" width="600" height="120" alt="Decorative graphics" />
     </div>
-</div>
+</section>
 
-<div class="blue-section">
+<section class="blue-section">
     <div class="container">
         <p>
             There are multiple ways to participate in BioVis through conferences and ongoing events. This year, the
@@ -102,12 +90,12 @@ layout: home
             {% endfor %}
         </ul>
     </div>
-</div>
+</section>
 
-<div class="grey-section">
+<section class="grey-section">
     <div class="container center-align">
         <h4>Affiliates</h4>
         <p>{{ site.conferenceshort }} is an official part of <a href="{{site.ismblink}}">ISMB {{site.year}}</a></p>
         <p><a href="https://www.iscb.org"><img src="{{site.baseurl}}/images/sponsors/ISCB.jpg" alt="ISCB" /></a></p>
     </div>
-</div>
+</section>
