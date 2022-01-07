@@ -2,10 +2,10 @@
 layout: map_page
 logo: ismb.svg
 title: BioVis at ISMB
-location: July 10-14, Madison, WI, USA (or virtual)
+location: July 13, Madison, WI, USA (or virtual)
 main_venue_rln: Co-located
 main_venue: ISMB 2022
-main_venue_url: https://www.iscb.org/ismbeccb2022
+main_venue_url: https://www.iscb.org/ismb2022
 permalink: /ismb/
 ---
 <div class="row center-align">
@@ -44,11 +44,13 @@ permalink: /ismb/
 <div class="row left-align">
     <div class="col s12 m6">
         <h4 id="ismbImportantDates">Important Dates</h4>
-        <p><strong>ISMB COSI date:</strong> {{ site.ismb_conference_date }} </p>
-        <p><strong>ISMB Proceedings Paper Submission Deadline:</strong> {{ site.ismb_paper_submission_deadline }}</p>
-        <p><strong>Talk Submission Deadline:</strong> {{ site.ismb_talk_submission_deadline}}</p>
-        <p><strong>Poster Submission Deadline:</strong> {{ site.ismb_poster_submission_deadline }}</p>
-        <!--<p><a href="{{ site.ismb_conference_link }}-keydates">See ISMB Key Dates for more details</a></p>-->
+        <ul>
+            <li>ISMB COSI date: <time>{{ site.ismb_cosi_date }}</time></li>
+            <li>ISMB Proceedings Paper Submission Deadline: <time>{{ site.ismb_paper_submission_deadline }}</time></li>
+            <li>Talk Submission Deadline: <time>{{ site.ismb_talk_submission_deadline}}</time></li>
+            <li>Poster Submission Deadline: <time>{{ site.ismb_poster_submission_deadline }}<time></li>
+            <li><a href="{{ site.ismb_conference_key_dates_link }}">See ISMB Key Dates for more details</a></li>
+        </ul>
     </div>
 
 

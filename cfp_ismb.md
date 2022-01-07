@@ -10,7 +10,7 @@ back_url: ismb
 
 **Community of Special Interest (COSI) event at [{{ site.ismb_conference_name }}]({{ site.ismb_conference_link }})**  
 
-**{{ site.ismb_conference_date }}  
+**{{ site.ismb_cosi_date }}  
 {{ site.ismb_conference_place }}**
 
 ## Aims and Scope
