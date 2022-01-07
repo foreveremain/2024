@@ -52,7 +52,7 @@ There are several ways participants can contribute to the BioVis program:
 
 ### 1. ISMB Proceedings - *Submission Deadline: {{ site.ismb_paper_submission_deadline }}*
 
-Novel, unpublished work can be submitted as a paper to the ISMB Proceedings. If accepted, manuscripts will be published in the OUP Journal Bioinformatics. Authors of accepted papers will be required to present their work at the symposium in a talk. Authors of rejected papers will be invited to submit a poster. 
+Novel, unpublished work can be submitted as a paper to the ISMB Proceedings. If accepted, manuscripts will be published in the OUP Journal [Bioinformatics](http://bioinformatics.oxfordjournals.org/) (impact factor 6.9). Authors of accepted papers will be required to present their work at the symposium in a talk. Authors of rejected papers will be invited to submit a poster. 
 
 #### Submission Guidelines
 
