@@ -75,7 +75,7 @@ Unpublished work: Authors are required to submit an extended abstract (1500 word
 * [ISMB Abstract Guidelines]({{ site.ismb_abstract_submission_link }})  
 <!-- TODO: Check link: * [**ISMB Talk Submission Form**](https://easychair.org/account/signin?l=Qtwki8qv7LdppT3m13DeXL#) (Select Biovis after logging in) -->
 
-### 3. Posters and demos - *Submission Deadline: {{ site.ismb_poster_submission_deadline }} (with late posters deadline {{ site.ismb_late_poster_submission_deadline }})*
+### 3. Posters - *Submission Deadline: {{ site.ismb_poster_submission_deadline }} (with late posters deadline {{ site.ismb_poster_late_submission_deadline }})*
 
 We invite participants to submit work in progress and preliminary results, previously published work from other venues, or visualization challenges to be presented as a poster and/or interactive demo. A selection of these will be invited to give a short talk during the conference.
 
@@ -93,12 +93,19 @@ See [ISMB Key Dates]({{ site.ismb_conference_key_dates_link }}) for full details
 
 ### Deadlines and Notifications for ISMB Proceedings
 
-* Submission Deadline: <time>{{ site.ismb_paper_submission_deadline }}</time>
-* Conditional Acceptance Notification: <time>TBA</time>
-* Revision Deadline: <time>TBA</time>
-* Final Acceptance Notification: <time>TBA</time>
+* Submission deadline: <time>{{ site.ismb_paper_submission_deadline }}</time>
+* Conditional acceptance notification: <time>{{ site.ismb_paper_conditional_acceptance }}</time>
+* Revision deadline: <time>{{ site.ismb_paper_revision_deadline }}</time>
+* Final acceptance notification: <time>{{ site.ismb_paper_final_acceptance }}</time>
 
-### Deadlines and Notifications for Talks and Posters/Demos
+### Deadlines and Notifications for Talks
 
-* Submission Deadline: <time>{{ site.ismb_talk_submission_deadline }}</time> (late posters deadline <time>{{ site.ismb_late_poster_submission_deadline }}</time>)
-* Acceptance Notification: <time>TBA</time>
+* Submission deadline: <time>{{ site.ismb_talk_submission_deadline }}</time>
+* Submission acceptance notification: <time>{{ site.ismb_talk_acceptance }}</time>
+
+### Deadlines and Notifications for Posters
+
+* Submission deadline: <time>{{ site.ismb_poster_submission_deadline }}</time>
+* Submission acceptance notification: <time>{{ site.ismb_poster_acceptance }}</time>
+* Late posters deadline <time>{{ site.ismb_poster_late_submission_deadline }}</time>
+* Late posters acceptance notification: <time>{{ site.ismb_poster_late_acceptance }}</time>

@@ -28,22 +28,22 @@ ismb_conference_name: "ISMB 2022"
 ismb_conference_key_dates_link: "https://www.iscb.org/ismb2022-key-dates"
 
 ismb_cosi_date: "July 13, 2022"
+
 ismb_paper_submission_deadline: "January 13, 2022"
-ismb_paper_conditional_accept: "TBA"
-ismb_paper_revised: "TBA"
-ismb_paper_final_acceptance: "TBA"
-ismb_poster_submission_deadline: "April 21, 2022"
+ismb_paper_conditional_acceptance: "March 3, 2022"
+ismb_paper_revision_deadline: "March 17, 2022"
+ismb_paper_final_acceptance: "April 4, 2022"
+
 ismb_talk_submission_deadline: "April 21, 2022"
-ismb_late_poster_submission_deadline: "May 19, 2022"
+ismb_talk_acceptance: "May 12, 2022"
+
+ismb_poster_submission_deadline: "April 21, 2022"
+ismb_poster_acceptance: "May 12, 2022"
+ismb_poster_late_submission_deadline: "May 19, 2022"
+ismb_poster_late_acceptance: "May 26, 2022"
 
 ismb_paper_submission_link: "https://www.iscb.org/ismb2022-submissions/proceedings"
 ismb_abstract_submission_link: "https://www.iscb.org/ismb2022-submissions/abstracts"
-
-#ismb_poster_accept: "TBA"
-#ismb_poster_oral_notification: TBA"
-#ismb_abstract_submission_deadline: "TBA"
-#ismb_highlights_submission_deadline: "TBA"
-#ismb_highlights_accept: "TBA"
 
 #bmc_submission_deadline: ""
 #bmc_conditional_accept: ""
