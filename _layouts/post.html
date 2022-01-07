@@ -12,21 +12,15 @@ layout: default
     </ul>
 </div>
 
-<div class="blue-section">
+<article class="container">
     <h3 itemprop="name">{{ page.title }}</h3>
     <p>
         <i>Published {{ page.date | date: "%b %-d, %Y" }}</i>
     </p>
-    <span class="author">{% if page.author %} {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span> </p>
-</div>
+    <p>
+        <span class="author">{% if page.author %} {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{%
+            endif %}</span>
+    </p>
 
-<div class="container">
-
-    <div class="post">
-
-        <article class="post-content-main">
-            {{ content }}
-        </article>
-    </div>
-</div>
-
+    {{ content }}
+</article>
