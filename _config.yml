@@ -5,14 +5,14 @@ description: "Biological Data Visualization"
 baseurl: "/2022"
 url: "http://biovis.net"
 conferenceshort: "BioVis 2022"
+
 #FIX ME: the event number is most likely not correct
 #eventNum: "12th" 
+
 IEEEconferencedate: "TBA"
 IEEEconferenceplace: "TBA"
-ISMBconferencedate: "July 10-14, 2022"
-ISMBconferenceplace: "Madison, WI, USA (or virtual)"
 year: 2022
-ismblink: "https://www.iscb.org/ismbeccb2022"
+
 
 # Old deadlines so I remember what they're called
 # When everything breaks
@@ -21,15 +21,15 @@ ismblink: "https://www.iscb.org/ismbeccb2022"
 #IEEE_deadline_camera: "TBD"
 #IEEE_deadline_poster: "TBD"
 
-#ISMB_hl_and_nresearch_submission: "TBD"
-#ISMB_deadline_poster: "TBD"
-#ISMB_hl_and_nresearch_notiication: "TBD"
+ismb_conference_date: "July 10-14, 2022"
+ismb_conference_place: "Madison, WI, USA (or virtual)"
+ismb_conference_link: "https://www.iscb.org/ismb2022"
+ismb_conference_name: "ISMB 2022"
 
 ismb_paper_submission_deadline: "January 13, 2022"
 ismb_paper_conditional_accept: "TBA"
 ismb_paper_revised: "TBA"
 ismb_paper_final_acceptance: "TBA"
-
 ismb_poster_submission_deadline: "April 21, 2022"
 ismb_talk_submission_deadline: "April 21, 2022"
 ismb_late_poster_submission_deadline: "May 19, 2022"

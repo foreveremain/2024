@@ -8,10 +8,10 @@ back_url: ismb
 
 # Call for Participation: BioVis@ISMB 2022
 
-**Community of Special Interest (COSI) event at [ISMB/ECCB 2022]({{ site.ismblink }})**  
+**Community of Special Interest (COSI) event at [ISMB 2022]({{ site.ismb_conference_link }})**  
 
-**{{ site.ISMBconferencedate }}  
-{{ site.ISMBconferenceplace }}**
+**{{ site.ismb_conference_date }}  
+{{ site.ismb_conference_place }}**
 
 ## Aims and Scope
 
@@ -23,7 +23,7 @@ We invite submissions of original research articles as well as poster submission
 
 ## Symposium Format
 
-The symposium will be a one-day single-track event at [ISMB/ECCB]({{ site.ismblink }}). It will feature keynotes and invited talks, paper sessions, highlight talks, and posters/demos. Primers will also be given to introduce key topics in visualization research.
+The symposium will be a one-day single-track event at [ISMB]({{ site.ismb_conference_link }}). It will feature keynotes and invited talks, paper sessions, highlight talks, and posters/demos. Primers will also be given to introduce key topics in visualization research.
 
 ## Topics
 
