@@ -15,7 +15,16 @@
 	/** The green boxes */
 	--background-color-emphasis: #00b992;
 
-	--gap: 50px;
+	--base-gap: 50px;
+	--gap: var(--base-gap);
+
+	--main-column-width: 70%;
+}
+
+@media only screen and (max-width: 700px) {
+	:root {
+		--gap: calc(var(--base-gap) * 0.5);
+	}
 }
 
 body {
@@ -29,6 +38,10 @@ a {
 
 strong {
     font-weight: bolder;
+}
+
+h1 {
+	font-size: 3.2em;
 }
 
 h2 {
@@ -78,23 +91,51 @@ nav a {
     color: var(--text-color-on-dark); 
 }
 
-.home-info-section {
-    background: var(--background-color-darker);
+section {
+	padding-top: var(--gap);
+	padding-bottom: var(--gap);
+	text-align: center;
 }
 
-.home-info-section p {
-    width: 100%;
-    text-align: center;
-    padding: 20px !important;
+@media only screen and (max-width: 700px) {
+	section {
+		hyphens: auto;
+	}
+}
+
+section > * {
+	width: min(calc(100vw - 2 * var(--gap)), 1024px);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section > *:first-child {
+	margin-top: 0;
+}
+
+section > *:last-child {
+	margin-bottom: 0;
+}
+
+.home-info-section {
+    background: var(--background-color-darker);
+
     font-weight: normal;
     font-size: 1.4em;
     color: var(--text-color-on-dark);
+}
+
+.home-info-section p {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .home-info-section img {
 	width: 100%;
 	height: auto;
 	display: block;
+	position: relative;
+	top: var(--gap);
 }
 
 /* Infobox code from: https://isabelcastillo.com/error-info-messages-css */
@@ -132,8 +173,6 @@ nav a {
 .blue-section {
     background-color: var(--background-color-dark);
     color: var(--text-color-on-dark);
-    text-align: center;
-    padding: var(--gap) !important;
     font-size: 1.2em;
 }
 
@@ -145,6 +184,7 @@ nav a {
 .event-boxes {
 	display: flex;
 	gap: var(--gap);
+	padding: var(--gap);
 }
 
 .event-boxes .event-box {
@@ -153,6 +193,7 @@ nav a {
     flex-grow: 1;
     flex-shrink: 1;
 
+	text-align: center;
     background-color: var(--background-color-emphasis);
     color: var(--text-color-on-emphasis);
     border-radius: 6px;
@@ -201,13 +242,12 @@ nav a {
 }
 
 .grey-section {
+	text-align: center;
     background-color: #ecf0f1;
-    padding-bottom: 20px;
 }
 
 .lightgrey-section {
     background-color: #f8fdfe;
-    padding-bottom: 20px;
 }
 
 .green-section {
@@ -249,9 +289,14 @@ footer a {
 }
 
 .breadcrumbs {
-    background-color: var(--background-color-darker);
+    background-color: var(--background-color-dark);
     color: var(--text-color-on-dark);
     padding: 1px 1px 1px 10px;
+}
+
+.breadcrumb {
+	margin: 0.5em 0;
+	font-size: 1rem;
 }
 
 .breadcrumb li {
@@ -274,7 +319,6 @@ nav ul a:hover {
 }
 
 ul.post-list {
-    margin: 0;
     padding: 0;
     list-style-type: none;
 }
@@ -565,9 +609,19 @@ svg {
     fill: currentColor;
 }
 
-.container {
-	/** prevent margin collapse */
-	overflow-y: auto;
+article.container {
+	padding-top: var(--gap);
+	padding-bottom: var(--gap);
+
+	font-size: 16px;
+}
+
+article.container > *:first-child {
+	margin-top: 0;
+}
+
+article.container > *:last-child {
+	margin-bottom: 0;
 }
 
 time {
