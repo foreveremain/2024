@@ -225,6 +225,8 @@ nav a {
 .event-details .event-name {
     font-weight: bolder;
     font-size: 1.3em;
+	line-height: 1.1em;
+	margin-bottom: 0.5em;
 }
 
 #map {
