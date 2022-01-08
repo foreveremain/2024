@@ -4,6 +4,8 @@ title: Committees
 menu: main
 ---
 
+# Committees 
+
 ## Organizing Committee for BioVis {{site.year}}
 
 ### General chairs

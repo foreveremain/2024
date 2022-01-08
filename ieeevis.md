@@ -30,12 +30,12 @@ permalink: /ieeevis/
 
 <div class="row left-align">
     <div class="col s12 m6">
-        <h4>Important Dates</h4>
+        <h3>Important Dates</h3>
         <p>Workshop date: {{site.IEEEconferencedate}}</p>
     </div>
 
     <div class="col s12 m6">
-        <h4>Latest News</h4>
+        <h3>Latest News</h3>
         <ul class="post-list">
          {% for post in site.posts %}
            {% capture category %}{{post.event}}{% endcapture %}
