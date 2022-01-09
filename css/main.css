@@ -18,7 +18,7 @@
 	--base-gap: 50px;
 	--gap: var(--base-gap);
 
-	--main-column-width: 70%;
+	--main-column-width: 1024px;
 
 	--font-base: 1.3;
 }
@@ -92,7 +92,7 @@ nav a {
 }
 
 section, article {
-	padding: var(--gap) max(var(--gap), calc((100vw - 1024px) * 0.5));
+	padding: var(--gap) max(var(--gap), calc((100vw - var(--main-column-width)) * 0.5));
 	margin: 0;
 }
 
@@ -241,11 +241,6 @@ section > *:last-child {
 	margin-bottom: 0.5em;
 }
 
-#map {
-    height: 300px;
-    margin-bottom: 40px;
-}
-
 footer.page-footer {
     background-color: var(--background-color-darker);
 	margin-top: 0;
@@ -371,20 +366,6 @@ ul.post-list {
     border-radius: 5px;
 }
 
-.regtable {
-    font-size: 12px;
-}
-.regtable thead {
-    font-weight: bold;
-    background-color: #ccc;
-}
-.regtable td {
-    background-color: #fffecf;
-}
-.regtable td:nth-child(1) {
-    background-color: #c3dffd;
-}
-
 /****** Speakers (TAKEN FROM VDS 2015)****/
 
 .talk {
@@ -500,61 +481,6 @@ ul.post-list {
     font-size: 1em;
 }
 
-hr.style-one {
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
-}
-
-/* Glyph, by Harry Roberts */
-
-hr.style-eight {
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
-}
-hr.style-eight:after {
-    content: "§";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
-}
-
-.float-my-children > * {
-    float: left;
-    padding: 10px 0px 10px 0px;
-    margin-right: 5px;
-}
-
-.clearfix {
-    *zoom: 1; /* for IE */
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-/* end clearfix*/
-
-.wordwrap {
-    white-space: pre-wrap; /* CSS3 */
-    white-space: -moz-pre-wrap; /* Firefox */
-    white-space: -pre-wrap; /* Opera <7 */
-    white-space: -o-pre-wrap; /* Opera 7 */
-    word-wrap: break-word; /* IE */
-}
 
 .disabled {
     pointer-events: none;
@@ -564,12 +490,6 @@ hr.style-eight:after {
 .side-nav .disabled,
 .dropdown-content .disabled {
     color: lightgray;
-}
-
-.helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
 }
 
 svg {
