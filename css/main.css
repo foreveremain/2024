@@ -71,16 +71,102 @@ h5 {
 }
 
 nav {
+	--nav-height: 80px;
+
     background-color: var(--background-color-darker);
     box-shadow: none;
-    height: 80px;
+    height: var(--nav-height);
     border-bottom: 3px solid var(--background-color-darker);
+	line-height: unset !important; /* override materialize */
+
+	font-size: 16px;
+}
+
+nav li.spacer {
+	flex-grow: 1;
+}
+
+nav > ul {
+	display: flex;
+	height: var(--nav-height);
+}
+
+nav ul li {
+	float: none; /* override materialize */
+}
+
+nav > ul > li {
+	position: relative;
+}
+
+nav > ul > li > :focus {
+	outline: none;
+}
+
+nav > ul > li > :is(a, span, button) {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 calc(var(--base-gap) * 0.25);
+	cursor: pointer;
+    color: var(--text-color-on-dark);
+	background-color: transparent;
+	border: none;
+}
+
+nav > ul > li > :hover:not(:focus-within) {
+	color: var(--link-color-on-dark);
+}
+
+nav > ul > li > ul {
+	position: absolute;
+	min-width: max-content;
+	left: 0;
+	right: 0;
+
+	background-color: #f0f0f0;
+
+	display: none;
+	box-shadow: 0 7px 14px rgba(0 0 0 / 20%);
+
+	padding: 0.3em 0;
+
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+nav > ul > li:is(:focus-within, :hover) > :is(a, span, button) {
+	background-color: var(--background-color-dark);
+}
+
+nav > ul > li:is(:focus-within, :hover) > ul {
+	display: block;
+}
+
+nav > ul > li > ul :is(a, span) {
+	display: block;
+	padding: 0.3em calc(var(--base-gap) * 0.25);
+	color: black; /* TODO */
+}
+
+nav li.heading span {
+	font-weight: bold;
+}
+
+nav li.heading:not(:first-child) {
+	border-top: 1px solid #d0d0d0;
+}
+
+nav .brand-logo {
+	position: static; /* override materialize */
+}
+
+nav .brand-logo img {
+	display: block;
 }
 
 nav ul a {
-    color: var(--text-color-on-dark);
-    padding-top: 5px;
-    font-weight: bolder;
+	font-size: unset; /* override materialize */
 }
 
 nav ul a.active {
@@ -89,6 +175,17 @@ nav ul a.active {
 
 nav a {
     color: var(--text-color-on-dark);
+}
+
+nav i {
+	/* override materialize */
+	display: inline !important;
+	font-size: 24px !important;
+	height: unset !important;
+	line-height: unset !important;
+
+	vertical-align: bottom;
+	margin-right: -0.3em;
 }
 
 section, article {
@@ -503,3 +600,12 @@ time {
 p > time, li > time {
 	font-weight: bold;
 }
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	
+	border-top: 20px solid #f00;
+  }
