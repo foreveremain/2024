@@ -19,13 +19,13 @@ menu: main
 
 ### Publicity chair
 
-[Jen Rogers](mailto:jen@sci.utah.edu), University of Utah, USA
+[Jen Rogers](https://jenrogers.dev/), University of Utah, USA
 
 ## BioVis COSI @ ISMB {{site.year}}
 
 ### Abstracts Chairs
 
-[Heba Sailem](mailto:heba.sailem@eng.ox.ac.uk), University of Oxford, UK  
+[Heba Sailem](https://www.hebasailem.com/), University of Oxford, UK  
 [Jan Byska](https://vis.uib.no/team/jan-byska/), Masaryk University, Czech Republic and University of Bergen, Norway  
 t.b.a.
 
@@ -39,8 +39,8 @@ t.b.a.
 
 [Zeynep H Gumus](https://icahn.mssm.edu/profiles/zeynep-h-gumus2), Icahn School of Medicine at Mount Sinai, USA  
 [Thomas Höllt](https://www.thomashollt.com), Leiden University Medical Center, The Netherlands  
-[Daniel Jönsson](mailto:daniel.jonsson@liu.se), Linköping University, Sweden  
-[Renata Raidou](mailto:mail@renataraidou.com), TU Wien, Austria  
+[Daniel Jönsson](https://liu.se/en/employee/danjo37), Linköping University, Sweden  
+[Renata Raidou](https://renataraidou.com/), TU Wien, Austria  
 
 ## Steering Committee
 
