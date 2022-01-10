@@ -16,7 +16,7 @@
             <a href="{{ item.url }}">{{ item.title }}</a>
             {% endif %}
             {% else %}
-            <button><span>{{ item.title }}</span> <i class="material-icons">arrow_drop_down</i></button>
+            <span tabindex="0" role="button"><span>{{ item.title }}</span> <i class="material-icons">arrow_drop_down</i></span>
             {% endif %}
             {% if item.subfolderitems %}
             <ul>
