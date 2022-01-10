@@ -26,6 +26,7 @@ menu: main
 ### Abstracts Chairs
 
 [Heba Sailem](mailto:heba.sailem@eng.ox.ac.uk), University of Oxford, UK  
+[Jan Byska](https://vis.uib.no/team/jan-byska/), Masaryk University, Czech Republic and University of Bergen, Norway  
 t.b.a.
 
 ### ISMB Liaison Chairs
