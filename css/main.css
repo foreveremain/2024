@@ -521,6 +521,10 @@ footer.page-footer .footer-copyright {
 	color: var(--link-color-on-dark);
 }
 
+.breadcrumb .chevron {
+	margin: 0 0.5em;
+}
+
 .breadcrumb li {
     display: inline-block;
 }
