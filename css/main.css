@@ -92,7 +92,7 @@ h5 {
 }
 
 @media only screen and (max-width: 993px) {
-	.row {
+	.row.monospace {
 		flex-direction: column;
 	}
 
@@ -506,19 +506,17 @@ footer.page-footer .footer-copyright {
 }
 
 
-.breadcrumbs {
+.breadcrumb {
+	margin: 0;
     background-color: var(--background-color-dark);
     color: var(--text-color-on-dark);
-    padding: 1px 1px 1px 10px;
+	font-size: 90%;
+
+	padding: 0.5em calc(var(--base-gap) * 0.5);
 }
 
-.breadcrumbs a {
+.breadcrumb a {
 	color: var(--link-color-on-dark);
-}
-
-.breadcrumb {
-	margin: 0.5em 0;
-	font-size: 1rem;
 }
 
 .breadcrumb li {
