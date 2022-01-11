@@ -117,21 +117,41 @@ header#top-header {
 	position: relative;
 }
 
-header#top-header #hamburger-toggle {
-	display: none;
-}
-
-header#top-header .hamburger {
+.hamburger {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 2em;
-    color: var(--text-color-on-dark);
+	flex-direction: column;
+	justify-content: space-between;
+	padding: calc((var(--header-height) - 24px) * 0.5) calc(var(--base-gap) * 0.5);
 	width: var(--header-height);
-	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	margin: 0;
 }
 
-header#top-header .hamburger:hover {
+.hamburger span {
+	display: block;
+    background-color: var(--text-color-on-dark);
+	height: 4px;
+	width: 100%;
+	border-radius: 2px;
+
+	transition: transform 0.2s ease-in-out, opacity 0.2s linear;
+	/* TODO: Transition for the menu */
+}
+
+.menu-open .hamburger span:nth-child(1) {
+	transform: translateY(10px) rotate(-45deg);
+}
+
+.menu-open .hamburger span:nth-child(2) {
+	opacity: 0;
+}
+
+.menu-open .hamburger span:nth-child(3) {
+	transform: translateY(-10px) rotate(45deg);
+}
+
+.hamburger:hover {
 	background-color: var(--background-color-dark);
 }
 
@@ -290,7 +310,7 @@ header .brand-logo img {
 		box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
 	}
 
-	header#top-header #hamburger-toggle:checked ~ nav {
+	header#top-header.menu-open nav {
 		display: block;
 	}
 
@@ -322,7 +342,7 @@ header .brand-logo img {
 
 	nav li > :is(a, span) {
 		display: block;
-		padding: 0.6em 1em;
+		padding: 0.6em calc(var(--base-gap) * 0.5);
 	}
 }
 

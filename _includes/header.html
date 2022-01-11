@@ -1,6 +1,9 @@
 <header id="top-header">
-    <input type="checkbox" id="hamburger-toggle" />
-    <label for="hamburger-toggle" class="hamburger">&#9776;</label>
+    <button class="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
 
     <a href="{{ site.baseurl }}/" class="brand-logo">
         <img src="{{ site.baseurl }}/images/logo-white.svg" width="89" height="38" alt="BioVis" />
@@ -50,13 +53,14 @@
 </header>
 
 <script>
-    // The checkbox + CSS solution is kind of nice, but still needs some workarounds
-
-    const toggleLabel = document.querySelector("header .hamburger");
-    const toggle = document.getElementById("hamburger-toggle");
+	const topHeader = document.getElementById("top-header");
+    document.querySelector("header .hamburger").addEventListener("click", e => {
+		topHeader.classList.toggle("menu-open");
+		e.stopPropagation();
+	});
     document.addEventListener("click", e => {
-        if (e.target != toggleLabel && e.target != toggle) {
-            toggle.checked = false;
+        if (!e.target.closest("nav")) {
+            topHeader.classList.remove("menu-open");
         }
     });
 </script>
