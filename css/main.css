@@ -169,11 +169,15 @@ nav li.heading:not(:first-child) {
 }
 
 nav .brand-logo {
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 nav .brand-logo img {
 	display: block;
+	width: auto;
+	height: 55px;
 }
 
 nav ul a.active {
