@@ -49,3 +49,15 @@
     </nav>
     <div class="dummy-item"></div>
 </header>
+
+<script>
+    // The checkbox + CSS solution is kind of nice, but still needs some workarounds
+
+    const toggleLabel = document.querySelector("header .hamburger");
+    const toggle = document.getElementById("hamburger-toggle");
+    document.addEventListener("click", e => {
+        if (e.target != toggleLabel && e.target != toggle) {
+            toggle.checked = false;
+        }
+    });
+</script>
