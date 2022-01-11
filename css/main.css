@@ -1,6 +1,4 @@
-﻿@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-
-:root {
+﻿:root {
 	--link-color-on-dark: #18d1a9;
 	--link-color-on-white: #27a78b;
 
@@ -79,118 +77,212 @@ h5 {
     font-size: 1.1em;
 }
 
-nav {
-	--nav-height: 80px;
+header#top-header {
+	--header-height: 80px;
 	--nav-font-size: 16px;
+	--menu-background-color: #f0f0f0;
 
-    background-color: var(--background-color-darker);
-    box-shadow: none;
-    height: var(--nav-height);
+    height: var(--header-height);
 
 	font-size: var(--nav-font-size);
-	line-height: normal;
-}
 
-nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
+    background-color: var(--background-color-darker);
 
-nav li.spacer {
-	flex-grow: 1;
-}
-
-nav > ul {
 	display: flex;
-	height: var(--nav-height);
-}
 
-nav > ul > li {
 	position: relative;
 }
 
-nav > ul > li > :focus {
-	outline: none;
+header#top-header #hamburger-toggle {
+	display: none;
 }
 
-nav > ul > li > :is(a, span, button) {
+header#top-header .hamburger {
 	display: flex;
 	align-items: center;
-	height: 100%;
-	padding: 0 calc(var(--base-gap) * 0.25);
-	cursor: pointer;
+	justify-content: center;
+	font-size: 2em;
     color: var(--text-color-on-dark);
-	background-color: transparent;
-	border: none;
+	width: var(--header-height);
+	cursor: pointer;
 }
 
-nav > ul > li > :hover:not(:focus-within) {
-	color: var(--link-color-on-dark);
-}
-
-nav > ul > li > ul {
-	position: absolute;
-	min-width: max-content;
-	left: 0;
-	right: 0;
-
-	background-color: #f0f0f0;
-
-	display: none;
-	box-shadow: 0 7px 14px rgba(0 0 0 / 20%);
-
-	padding: 0.3em 0;
-
-	border-bottom-left-radius: 3px;
-	border-bottom-right-radius: 3px;
-}
-
-nav > ul > li:is(:focus-within, :hover) > :is(a, span, button) {
+header#top-header .hamburger:hover {
 	background-color: var(--background-color-dark);
 }
 
-nav > ul > li:is(:focus-within, :hover) > ul {
-	display: block;
+/* Helps to center brand-logo in mobile layout */
+header .dummy-item {
+	display: none;
 }
 
-nav > ul > li > ul :is(a, span) {
-	display: block;
-	padding: 0.3em calc(var(--base-gap) * 0.25);
-	color: black; /* TODO */
-}
-
-nav li.heading span {
-	font-weight: bold;
-}
-
-nav li.heading:not(:first-child) {
-	border-top: 1px solid #d0d0d0;
-}
-
-nav .brand-logo {
+header .brand-logo {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-nav .brand-logo img {
+header .brand-logo img {
 	display: block;
 	width: auto;
 	height: 55px;
 }
 
-nav ul a.active {
-    color: var(--link-color-on-dark);
+@media only screen and (min-width: 1024px) {
+	header#top-header .hamburger {
+		display: none;
+	}
+
+	header .brand-logo {
+		margin-left: calc(var(--base-gap) * 0.5);
+	}
+
+	.main-page-link {
+		display: none;
+	}
+
+	nav {
+		line-height: normal;
+		flex-grow: 1;
+		margin-right: calc(var(--base-gap) * 0.25);
+	}
+
+	nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	nav li.spacer {
+		flex-grow: 1;
+	}
+
+	nav > ul {
+		display: flex;
+		height: var(--header-height);
+	}
+
+	nav > ul > li {
+		position: relative;
+	}
+
+	nav > ul > li > :focus {
+		outline: none;
+	}
+
+	nav > ul > li > :is(a, span, button) {
+		display: flex;
+		align-items: center;
+		height: 100%;
+		padding: 0 calc(var(--base-gap) * 0.25);
+		cursor: pointer;
+		color: var(--text-color-on-dark);
+		background-color: transparent;
+		border: none;
+	}
+
+	nav > ul > li > :hover:not(:focus-within) {
+		color: var(--link-color-on-dark);
+	}
+
+	nav > ul > li > ul {
+		position: absolute;
+		min-width: max-content;
+		left: 0;
+		right: 0;
+
+		background-color: var(--menu-background-color);
+
+		display: none;
+		box-shadow: 0 7px 14px rgba(0 0 0 / 20%);
+
+		padding: 0.3em 0;
+
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+
+	nav > ul > li:is(:focus-within, :hover) > :is(a, span, button) {
+		background-color: var(--background-color-dark);
+	}
+
+	nav > ul > li:is(:focus-within, :hover) > ul {
+		display: block;
+	}
+
+	nav > ul > li > ul :is(a, span) {
+		display: block;
+		padding: 0.3em calc(var(--base-gap) * 0.25);
+		color: black; /* TODO */
+	}
+
+	nav li.heading span {
+		font-weight: bold;
+	}
+
+	nav li.heading:not(:first-child) {
+		border-top: 1px solid #d0d0d0;
+	}
+
+	nav ul a.active {
+		color: var(--link-color-on-dark);
+	}
+
+	nav a {
+		color: var(--text-color-on-dark);
+	}
+
+	nav i {
+		vertical-align: bottom;
+		margin-right: -0.3em;
+	}
 }
 
-nav a {
-    color: var(--text-color-on-dark);
-}
+@media only screen and (max-width: 1023px) {
+	nav {
+		background-color: var(--menu-background-color);
+		position: absolute;
+		top: var(--header-height);
+		left: 0;
+		right: 0;
 
-nav i {
-	vertical-align: bottom;
-	margin-right: -0.3em;
+		display: none
+	}
+
+	header#top-header #hamburger-toggle:checked ~ nav {
+		display: block;
+	}
+
+	header {
+		justify-content: space-between;
+	}
+
+	header .dummy-item {
+		display: block;
+		width: var(--header-height);
+	}
+
+	header .brand-logo {
+	}
+
+	nav .spacer,
+	nav .dropdown-arrow {
+		display: none;
+	}
+
+	nav ul {
+		list-style: none;
+		padding-left: 2em;
+	}
+
+	nav > ul {
+		padding-left: 0;
+	}
+
+	nav li > :is(a, span) {
+		display: block;
+		padding: 0.6em 1em;
+	}
 }
 
 section, article {

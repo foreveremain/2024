@@ -1,42 +1,51 @@
-<nav>
-    <ul>
-        <li>
-            <a href="{{ site.baseurl }}/" class="brand-logo">
-                <img src="{{ site.baseurl }}/images/logo-white.svg" width="89" height="38" alt="BioVis" />
-            </a>
-        </li>
-        <li class="spacer"></li>
-        {% for item in site.data.navigation.toc %}
-        <li>
-            {% if item.url %}
-            {% assign firstChar = item.url | slice: 0 %}
-            {% if firstChar == '/' %}
-            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-            {% else %}
-            <a href="{{ item.url }}">{{ item.title }}</a>
-            {% endif %}
-            {% else %}
-            <span tabindex="0" role="button"><span>{{ item.title }}</span> <i class="material-icons">arrow_drop_down</i></span>
-            {% endif %}
-            {% if item.subfolderitems %}
-            <ul>
-                {% for subItem in item.subfolderitems %}
-                {% if subItem.url %}
-                {% assign firstChar = subItem.url | slice: 0 %}
-                <li>
-                    {% if firstChar == '/' %}
-                    <a href="{{ site.baseurl }}{{ subItem.url }}">{{ subItem.title }}</a>
-                    {% else %}
-                    <a href="{{ subItem.url }}">{{ subItem.title }}</a>
+<header id="top-header">
+    <input type="checkbox" id="hamburger-toggle" />
+    <label for="hamburger-toggle" class="hamburger">&#9776;</label>
+
+    <a href="{{ site.baseurl }}/" class="brand-logo">
+        <img src="{{ site.baseurl }}/images/logo-white.svg" width="89" height="38" alt="BioVis" />
+    </a>
+
+    <nav>
+        <ul>
+            <li class="spacer"></li>
+            <li class="main-page-link">
+                <a href="{{ site.baseurl }}/">Home</a>
+            </li>
+            {% for item in site.data.navigation.toc %}
+            <li>
+                {% if item.url %}
+                {% assign firstChar = item.url | slice: 0 %}
+                {% if firstChar == '/' %}
+                <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                {% else %}
+                <a href="{{ item.url }}">{{ item.title }}</a>
+                {% endif %}
+                {% else %}
+                <span tabindex="0" role="button"><span>{{ item.title }}</span> <i
+                        class="material-icons dropdown-arrow">arrow_drop_down</i></span>
+                {% endif %}
+                {% if item.subfolderitems %}
+                <ul>
+                    {% for subItem in item.subfolderitems %}
+                    {% if subItem.url %}
+                    {% assign firstChar = subItem.url | slice: 0 %}
+                    <li>
+                        {% if firstChar == '/' %}
+                        <a href="{{ site.baseurl }}{{ subItem.url }}">{{ subItem.title }}</a>
+                        {% else %}
+                        <a href="{{ subItem.url }}">{{ subItem.title }}</a>
+                        {% endif %}
+                    </li>
+                    {% elsif subItem.heading %}
+                    <li class="heading"><span>{{ subItem.heading }}</span></li>
                     {% endif %}
-                </li>
-                {% elsif subItem.heading %}
-                <li class="heading"><span>{{ subItem.heading }}</span></li>
+                    {% endfor %}
+                </ul>
                 {% endif %}
                 {% endfor %}
-            </ul>
-            {% endif %}
-            {% endfor %}
-        </li>
-    </ul>
-</nav>
+            </li>
+        </ul>
+    </nav>
+    <div class="dummy-item"></div>
+</header>
