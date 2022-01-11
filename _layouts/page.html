@@ -1,19 +1,15 @@
 ---
 layout: default
 ---
-
-<div class="breadcrumbs moduletable">
-  <ul class="breadcrumb">
+<ul class="breadcrumb">
     <li class="active">You are here: &nbsp;</li>
-    <li><a href="{{ site.baseurl }}/" class="pathway">Home</a> |</li>
+    <li><a href="{{ site.baseurl }}/" class="pathway">Home</a><span class="chevron">&rsaquo;</span></li>
     {% if page.back_title %}
-    <li><a href="{{ site.baseurl }}/{{page.back_url}}" class="pathway">{{page.back_title}}</a> |</li>
+    <li><a href="{{ site.baseurl }}/{{page.back_url}}" class="pathway">{{page.back_title}}</a><span class="chevron">&rsaquo;</span></li>
     {% endif %}
     <li class="active"><span>{{ page.title }}</span></li>
-  </ul>
-</div>
+</ul>
 
 <article>
-{{ content }}
+    {{ content }}
 </article>
-

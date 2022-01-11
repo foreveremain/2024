@@ -1,112 +1,51 @@
-<nav>
-    <div class="nav-wrapper">
+<header id="top-header">
+    <input type="checkbox" id="hamburger-toggle" />
+    <label for="hamburger-toggle" class="hamburger">&#9776;</label>
 
-        <ul id="ismb" class="dropdown-content">
-            <li><a href="{{ site.baseurl }}/ismb">Overview</a></li>
-            <li><a class="disabled" href="{{site.baseurl}}/ismb#ismbImportantDates">Important Dates</a></li>
-            <li class="divider"></li>
-            <li><a href="{{ site.baseurl }}/cfp_ismb">Call for Participation</a></li>
-            <li><a class="disabled" href="https://www.iscb.org/ismbeccb2021-registration">Registration</a></li>
-            <li class="divider"></li>
-            <li><a class="disabled" href="{{ site.baseurl }}/program_ismb">Program</a></li>
-        </ul>
+    <a href="{{ site.baseurl }}/" class="brand-logo">
+        <img src="{{ site.baseurl }}/images/logo-white.svg" width="89" height="38" alt="BioVis" />
+    </a>
 
-        <ul id="vis" class="dropdown-content">
-            <li><a class="disabled" href="{{ site.baseurl }}/ieeevis">BioVis @ IEEE VIS</a></li>
-            <ul style="margin-left:20px;">
-                <li><a class="disabled" href="{{ site.baseurl }}/ieeevis">Overview</a></li>
-                <li><a class="disabled" href="{{ site.baseurl }}/biovisChallenges_vis">BioVis Challenges</a></li>
-                <li><a class="disabled" href="{{site.baseurl}}/program_ieee">Program</a></li>
-            </ul>
-        </ul>
-
-        <ul id="other" class="dropdown-content">
-            <li><a href="#">Meetings</a></li>
-            <ul style="margin-left:20px;">
-                <li><a href="https://vizbi.org/">VIZBI</a></li>
-                <li><a href="http://www.vcbm.org/">VCBM</a></li>
-                <li><a href="http://decibel.fi.muni.cz/~xbyska/molva/">MolVA</a></li>
-            </ul>
-            <li class="divider"></li>
-            <li><a href="#">Websites</a></li>
-            <ul style="margin-left:20px;">
-                <li><a href="http://bivi.co/">BIVI</a></li>
-            </ul>
-        </ul>
-
-        <a href="{{ site.baseurl }}/" class="brand-logo"><img src="{{ site.baseurl }}/images/logo-white.svg" width="150"
-                alt="BioVis" /></a>
-
-        <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-
-        <ul class="right hide-on-med-and-down">
-            <li><a class="dropdown-button" href="#!" data-beloworigin="true" data-activates="ismb">Annual Meeting @
-                    ISMB<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a class="dropdown-button" href="#!" data-beloworigin="true" data-activates="vis">Other Activities<i
-                        class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a class="dropdown-button" href="#!" data-beloworigin="true" data-activates="other">Community
-                    Resources<i class="material-icons right">arrow_drop_down</i></a></li>
-
-            <li><a href="{{ site.baseurl }}/committee.html">Committee</a></li>
-            <li><a href="{{ site.baseurl }}/previousYears/">Previous Years</a></li>
-            <li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
-        </ul>
-
-        <ul class="side-nav" id="mobile">
-            <li><a href="{{ site.baseurl }}/program_ismb/">Annual Meeting @ ISMB</a>
-                <ul>
-                    <li><a href="{{ site.baseurl }}/program_ismb/">Overview</a></li>
-                    <li><a href="{{ site.baseurl }}/cfp_ismb">Call for Participation</a></li>
-                    <li><a class="disabled" href="https://www.iscb.org/ismbeccb2021-registration">Registration</a>
-                    </li>
-                    <li><a class="disabled" href="https://www.iscb.org/ismbeccb2021-program/keynotes">Program</a>
-                    </li>
-                </ul>
+    <nav>
+        <ul>
+            <li class="spacer"></li>
+            <li class="main-page-link">
+                <a href="{{ site.baseurl }}/">Home</a>
             </li>
-
-            <li class="divider"></li>
-
-            <li><a href="{{ site.baseurl }}/ieeevis/">Other Activities</a>
-                <ul>
-                    <li><a class="disabled" href="{{ site.baseurl }}/ieeevis">BioVis @ IEEE VIS</a></li>
-                    <ul style="margin-left:20px;">
-                        <li><a class="disabled" href="{{ site.baseurl }}/ieeevis">Overview</a></li>
-                        <li><a class="disabled" href="{{ site.baseurl }}/biovisChallenges_vis">BioVis Challenges
-                            </a></li>
-                        <li><a class="disabled" href="{{site.baseurl}}/program_ieee">Program</a></li>
-                    </ul>
-                </ul>
-            </li>
-
-            <li><a href="#">Community Resources</a></li>
-
+            {% for item in site.data.navigation.toc %}
             <li>
+                {% if item.url %}
+                {% assign firstChar = item.url | slice: 0 %}
+                {% if firstChar == '/' %}
+                <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                {% else %}
+                <a href="{{ item.url }}">{{ item.title }}</a>
+                {% endif %}
+                {% else %}
+                <span tabindex="0" role="button"><span>{{ item.title }}</span> <i
+                        class="material-icons dropdown-arrow">arrow_drop_down</i></span>
+                {% endif %}
+                {% if item.subfolderitems %}
                 <ul>
-                    <li><a href="#">Meetings</a></li>
-                    <ul style="margin-left:20px;">
-                        <li><a href="https://vizbi.org/">VIZBI</a></li>
-                        <li><a href="http://www.vcbm.org/">VCBM</a></li>
-                        <li><a href="http://decibel.fi.muni.cz/~xbyska/molva/">MolVA</a></li>
-                    </ul>
-
-                    <li><a href="#">Websites</a></li>
-                    <ul style="margin-left:20px;">
-                        <li><a href="http://bivi.co/">BIVI</a></li>
-                    </ul>
+                    {% for subItem in item.subfolderitems %}
+                    {% if subItem.url %}
+                    {% assign firstChar = subItem.url | slice: 0 %}
+                    <li>
+                        {% if firstChar == '/' %}
+                        <a href="{{ site.baseurl }}{{ subItem.url }}">{{ subItem.title }}</a>
+                        {% else %}
+                        <a href="{{ subItem.url }}">{{ subItem.title }}</a>
+                        {% endif %}
+                    </li>
+                    {% elsif subItem.heading %}
+                    <li class="heading"><span>{{ subItem.heading }}</span></li>
+                    {% endif %}
+                    {% endfor %}
                 </ul>
+                {% endif %}
+                {% endfor %}
             </li>
-
-            <li class="divider"></li>
-
-            <li><a href="{{ site.baseurl }}/committee.html">Committee</a></li>
-
-            <li class="divider"></li>
-
-            <li><a href="{{ site.baseurl }}/previousYears/">Previous Years</a></li>
-
-            <li class="divider"></li>
-
-            <li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
         </ul>
-    </div>
-</nav>
+    </nav>
+    <div class="dummy-item"></div>
+</header>

@@ -8,43 +8,32 @@ main_venue: ISMB 2022
 main_venue_url: https://www.iscb.org/ismb2022
 permalink: /ismb/
 ---
-<div class="row center-align">
-    <div class="col m4 s12 event-page-menu-block">
+
+<div class="row monospace center-align">
+    <div>
         <i class="material-icons large">people</i>
         <h3>Call for Participation</h3>
-        <a class="btn waves-effect waves-light" href="{{site.baseurl}}/cfp_ismb" type="submit" name="action">View
-            CfP</a>
+        <a class="btn waves-effect waves-light" href="{{site.baseurl}}/cfp_ismb" class="btn">View CfP</a>
     </div>
 
-    <!--<div class="col m4 s12 event-page-menu-block">
-     <i class="material-icons large">file_upload</i>
-     <h3>Submission Info</h3>
-     <a class="btn waves-effect waves-light disabled" href="{{site.baseurl}}/submission_ismb" type="submit" name="action">View Submission Info </a>
-    </div>-->
-
     {% if site.ismb_conference_registration_link %}
-    <div class="col m4 s12 event-page-menu-block">
+    <div>
         <i class="material-icons large">border_color</i>
         <h3>Registration</h3>
-        <a class="btn waves-effect waves-light" href="{{ site.ismb_conference_registration_link }}" type="submit"
-            name="action">Register</a>
+        <a class="btn waves-effect waves-light" href="{{ site.ismb_conference_registration_link }}" class="btn">Register</a>
     </div>
     {% endif %}
 
-    <div class="col m4 s12 event-page-menu-block">
+    <div>
         <i class="material-icons large">list</i>
         <h3>Main Program</h3>
-        <a class="btn waves-effect waves-light" href="{{site.baseurl}}/program_ismb" type="submit" name="action">View
+        <a class="btn waves-effect waves-light" href="{{site.baseurl}}/program_ismb" class="btn">View
             Main Program</a>
     </div>
 </div>
 
-<br />
-
-<br />
-
-<div class="row left-align">
-    <div class="col s12 m6">
+<div class="row monospace" style="margin-top: var(--gap)">
+    <div>
         <h3 id="ismbImportantDates">Important Dates</h3>
         <ul>
             <li>ISMB COSI date: <time>{{ site.ismb_cosi_date }}</time></li>
@@ -56,7 +45,7 @@ permalink: /ismb/
     </div>
 
 
-    <div class="col s12 m6">
+    <div>
         <h3>Latest News</h3>
 
         <ul class="post-list">
@@ -77,6 +66,3 @@ permalink: /ismb/
         </ul>
     </div>
 </div>
-
-<br />
-<br />

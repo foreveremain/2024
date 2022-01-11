@@ -1,0 +1,36 @@
+toc:
+  - title: Annual Meeting @ ISMB
+    subfolderitems:
+      - title: Overview
+        url: /ismb
+      - title: Call for Participation
+        url: /cfp_ismb
+      - title: Program
+        url: /program_ismb
+  - title: Other Activities
+    subfolderitems:
+      - heading: BioVis @ IEEE VIS
+      - title: Overview
+        url: /ieeevis
+      - title: BioVis Challenges
+        url: /biovisChallenges_vis
+      - title: Program
+        url: /program_ieee
+  - title: Resources
+    subfolderitems:
+      - heading: Meetings
+      - title: VIZBI
+        url: https://vizbi.org/
+      - title: VCBM
+        url: http://www.vcbm.org/
+      - title: MolVA
+        url: http://decibel.fi.muni.cz/~xbyska/molva/
+      - heading: Websites
+      - title: BIVI
+        url: http://bivi.co/
+  - title: Committee
+    url: /committee.html
+  - title: Previous Years
+    url: /previousYears
+  - title: Contact
+    url: /contact
