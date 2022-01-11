@@ -77,6 +77,29 @@ h5 {
     font-size: 1.1em;
 }
 
+
+.row {
+	display: flex;
+	gap: var(--gap);
+}
+
+.row.monospace > * {
+	display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+@media only screen and (max-width: 993px) {
+	.row {
+		flex-direction: column;
+	}
+
+	.row.monospace > * {
+		flex-basis: auto;
+	}
+}
+
 header#top-header {
 	--header-height: 80px;
 	--nav-font-size: 16px;
@@ -285,7 +308,7 @@ header .brand-logo img {
 	}
 }
 
-section, article {
+section, article, footer {
 	padding: var(--gap) max(var(--gap), calc((100vw - var(--main-column-width)) * 0.5));
 	margin: 0;
 }
@@ -447,17 +470,49 @@ section > *:last-child {
 
 footer.page-footer {
     background-color: var(--background-color-darker);
+	font-size: 90%;
+	padding-bottom: 0;
+	padding-top: calc(var(--base-gap) * 0.5);
+	color: var(--text-color-on-dark);
+}
+
+footer.page-footer ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+footer.page-footer .row > * > :first-child {
 	margin-top: 0;
 }
 
-footer a {
+footer.page-footer .row {
+	gap: var(--base-gap);
+}
+
+footer.page-footer a {
     color: var(--link-color-on-dark);
 }
+
+footer.page-footer .footer-copyright {
+	text-align: center;
+    font-weight: 300;
+	font-size: 0.9em;
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(51,51,51,0.08);
+}
+
 
 .breadcrumbs {
     background-color: var(--background-color-dark);
     color: var(--text-color-on-dark);
     padding: 1px 1px 1px 10px;
+}
+
+.breadcrumbs a {
+	color: var(--link-color-on-dark);
 }
 
 .breadcrumb {
@@ -467,21 +522,6 @@ footer a {
 
 .breadcrumb li {
     display: inline-block;
-}
-
-.side-nav li:hover,
-.side-nav li.active {
-    background-color: transparent;
-    color: #21a186;
-}
-
-nav ul a:hover {
-    background-color: transparent;
-    color: #21a186;
-}
-
-.row {
-    margin-bottom: 0;
 }
 
 ul.post-list {
@@ -537,7 +577,6 @@ ul.post-list {
 }
 
 .event-page-menu-block {
-    padding: 30px !important;
 }
 
 .post-list-item-event {
@@ -717,14 +756,10 @@ p > time, li > time {
 	border-top: 20px solid #f00;
 }
 
-
-footer.page-footer .footer-copyright {
+.center-align {
 	text-align: center;
-    font-weight: 300;
-	font-size: 0.9em;
-    overflow: hidden;
-    height: 50px;
-    line-height: 50px;
-    color: rgba(255,255,255,0.8);
-    background-color: rgba(51,51,51,0.08);
+}
+
+.material-icons.large {
+	font-size: 4em;
 }

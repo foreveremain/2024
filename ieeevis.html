@@ -1,0 +1,53 @@
+---
+layout: map_page
+logo: ieee.svg
+title: BioVis at IEEE VIS (BioVis@VIS)
+location: Virutal Conference
+date: October 25 2021
+main_venue_rln: In conjunction
+main_venue: IEEE VIS 2021
+main_venue_url: http://ieeevis.org/
+permalink: /ieeevis/
+---
+
+<div class="row monospace center-align">
+    <div>
+        <i class="material-icons large">create</i>
+        <h3>BioVis Challenges</h3>
+        <a class="btn waves-effect waves-light" href="{{site.baseurl}}/biovisChallenges_vis" class="btn">View
+            Details</a>
+    </div>
+
+    <div>
+        <i class="material-icons large">list</i>
+        <h3>Program</h3>
+        <a class="btn waves-effect waves-light" href="{{site.baseurl}}/program_ieee" class="btn">View Details</a>
+    </div>
+</div>
+
+<div class="row monospace" style="margin-top: var(--gap)">
+    <div>
+        <h3>Important Dates</h3>
+        <p>Workshop date: {{site.IEEEconferencedate}}</p>
+    </div>
+
+    <div>
+        <h3>Latest News</h3>
+        <ul class="post-list">
+            {% for post in site.posts %}
+            {% capture category %}{{post.event}}{% endcapture %}
+            {% if category == "ieee" %}
+            <li class="post-list-item-event">
+                <span class="date">{{ post.date | date: "%-d %b %Y" }}</span>
+                <span class="post-list-title">
+                    <a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </span>
+                <p class="post-list-excerpt">
+                    {{ post.excerpt }}
+                </p>
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>
