@@ -22,3 +22,7 @@ name, e.g., 2022.
 4) push the changes into the new repository (created in step 1)
 
 5) update forwarding in the index.html file at [https://github.com/biovis/biovis.github.io/](https://github.com/biovis/biovis.github.io/)
+
+## Random stuff
+
+Navigation menu is configured in `_data/navigation.yaml`.
