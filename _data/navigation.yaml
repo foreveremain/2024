@@ -18,6 +18,9 @@ toc:
         url: /program_ieee
   - title: Resources
     subfolderitems:
+      - heading: Meetup 
+      - title: BioVis_meetup
+        url: https://helenajambor.github.io/BioVis-meetup/
       - heading: Meetings
       - title: VIZBI
         url: https://vizbi.org/
