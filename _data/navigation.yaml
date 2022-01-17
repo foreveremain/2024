@@ -9,6 +9,9 @@ toc:
         url: /program_ismb
   - title: Other Activities
     subfolderitems:
+      - heading: Monthly Meetup 
+      - title: BioVis Meetup
+        url: https://helenajambor.github.io/BioVis-meetup/
       - heading: BioVis @ IEEE VIS
       - title: Overview
         url: /ieeevis
@@ -18,9 +21,6 @@ toc:
         url: /program_ieee
   - title: Resources
     subfolderitems:
-      - heading: Meetup 
-      - title: BioVis_meetup
-        url: https://helenajambor.github.io/BioVis-meetup/
       - heading: Meetings
       - title: VIZBI
         url: https://vizbi.org/
