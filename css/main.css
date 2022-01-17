@@ -281,6 +281,8 @@ header .brand-logo img {
 
 	nav li.heading:not(:first-child) {
 		border-top: 1px solid #d0d0d0;
+		margin-top: 0.3em;
+		padding-top: 0.3em;
 	}
 
 	nav ul a.active {
