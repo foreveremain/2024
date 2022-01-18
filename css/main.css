@@ -793,3 +793,72 @@ p > time, li > time {
 .material-icons.large {
 	font-size: 4em;
 }
+
+
+
+.scalable-banner {
+	font-size: calc(min(var(--main-column-width) + 2 * var(--gap), 100vw) * 0.019);
+}
+
+.meetup-banner {
+	display: flex;
+	gap: 1em;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 3em;
+}
+
+.meetup-banner img {
+	width: 15em;
+	height: 15em;
+}
+
+.meetup-banner > div {
+	text-align: right;
+	font-size: max(11px, 1.2em);
+	line-height: 1.2;
+}
+
+.meetup-banner p:first-child {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+
+.meetup-speaker-banner {
+	margin: var(--gap) 0;
+
+	display: flex;
+	gap: 1em;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: var(--background-color-dark);
+	padding: 1em;
+}
+
+.meetup-speaker-banner img {
+	display: block;
+	object-fit: cover;
+	aspect-ratio: 1;
+	height: 10em;
+	border-radius: 50%;
+	border: 0.2em solid var(--background-color-emphasis);
+}
+
+.meetup-speaker-banner > div {
+	color: var(--text-color-on-dark);
+	font-size: 2em;
+}
+
+.meetup-speaker-banner > div > :first-child {
+	margin-bottom: 0.3em;
+}
+
+.meetup-speaker-banner .title {
+	display: inline;
+	line-height: 1.2;
+	background-color: var(--background-color-emphasis);
+	color: var(--text-color-on-emphasis);
+}
