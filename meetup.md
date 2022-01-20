@@ -1,5 +1,7 @@
 ---
 layout: page
+title: Meetup
+permalink: /meetup/
 ---
 
 <div class="scalable-banner meetup-banner">
@@ -45,6 +47,7 @@ London / 11am East Coast US / 8 am California / (recording available):
 </div>
 
 ## Zoom link
+
 [Join meeting](https://tu-dresden.zoom.us/j/89272023943?pwd=eUQ1TEtITXRCUEFRZGhNMi96VEczUT09)
 
 Meeting ID: 892 7202 3943  

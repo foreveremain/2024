@@ -11,7 +11,7 @@ toc:
     subfolderitems:
       - heading: Bimonthly Meetup 
       - title: BioVis Meetup
-        url: https://helenajambor.github.io/BioVis-meetup/
+        url: /meetup
       - heading: BioVis @ IEEE VIS
       - title: Overview
         url: /ieeevis
