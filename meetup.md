@@ -12,7 +12,7 @@ layout: page
     </div>
 </div>
 
-# Welcome to the BioVis meetup
+## Welcome to the BioVis meetup
 
 The **BioVis meetup** is a new virtual seminar series organised by the BioVis
 community to complement the BioVis sessions at ISMB (July) and IEEE Vis
@@ -23,7 +23,7 @@ community of all people "BioVis": wet-lab researchers, clinicians,
 bioinformaticians, visualization researchers, designers, data scientists, all
 invested in biomedical data visualization.
 
-## Invitation to BioVis meetup #1
+### Invitation to BioVis meetup #1
 
 For the January'22 BioVis meetup we'll have a presentation and chat with
 **Matthias Stahl** from DER SPIEGEL. Matthias is a PhD scientist,
@@ -44,7 +44,7 @@ London / 11am East Coast US / 8 am California / (recording available):
     </div>
 </div>
 
-### Zoom link
+## Zoom link
 [Join meeting](https://tu-dresden.zoom.us/j/89272023943?pwd=eUQ1TEtITXRCUEFRZGhNMi96VEczUT09)
 
 Meeting ID: 892 7202 3943  
