@@ -38,12 +38,9 @@ Join us on *Tuesday, 25th of January* at 5pm Berlin / 4 pm
 London / 11am East Coast US / 8 am California / (recording available):
 **"From bench to news site: Changing the world with data visualization"**
 
-### Zoom link
+#### Recorded talk
 
-[Join meeting](https://tu-dresden.zoom.us/j/89272023943?pwd=eUQ1TEtITXRCUEFRZGhNMi96VEczUT09)
-
-Meeting ID: 892 7202 3943  
-Passcode: 0.pG5*Vt
+The recorded talk is available on [YouTube](https://www.youtube.com/watch?v=P_cci5CrM6k).
 
 <div class="scalable-banner meetup-speaker-banner">
     <img src="{{ site.baseurl }}/images/speakers/MatthiasStahl.jpg" alt="Matthias Stahl" />
