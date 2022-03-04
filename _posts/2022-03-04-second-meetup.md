@@ -1,6 +1,6 @@
 ---
 layout: post
-title: BioVis meetup on Visualisation of Spatial and Image Date
+title: BioVis meetup on Visualisation of Spatial and Image Data
 date: 2022-03-04
 event: meetup
 categories: meetup 
