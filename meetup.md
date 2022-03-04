@@ -25,27 +25,18 @@ community of all people "BioVis": wet-lab researchers, clinicians,
 bioinformaticians, visualization researchers, designers, data scientists, all
 invested in biomedical data visualization.
 
-### Invitation to BioVis meetup #1
+### Invitation to BioVis meetup #2
 
-For the January'22 BioVis meetup we'll have a presentation and chat with
-**Matthias Stahl** from DER SPIEGEL. Matthias is a PhD scientist,
-founder of design studio higsch, and now co-lead of Graphics & Interactive
-department at a leading German weekly. Matthias will describe his route from
-bacteria and childhood cancer to political news and how this is all connected
-by his passion for data and visualizations.
+*Visualisation of Spatial and Image Data*
 
-Join us on *Tuesday, 25th of January* at 5pm Berlin / 4 pm
-London / 11am East Coast US / 8 am California / (recording available):
-**"From bench to news site: Changing the world with data visualization"**
+For the March '22 BioVis meetup we'll have a discussion of current methods and
+open challenges towards making sense of spatial biological data.
 
-#### Recorded talk
+Speakers: Fabian Theis ([@fabian_theis](https://twitter.com/fabian_theis))
+and Heba Sailem ([@hsailem](https://twitter.com/hsailem)).
 
-The recorded talk is available on [YouTube](https://www.youtube.com/watch?v=P_cci5CrM6k).
+Join us on *Tuesday, 22nd of March* at 5pm Berlin / 4 pm
+London / 11am East Coast US / 8 am California / (recording available)
 
-<div class="scalable-banner meetup-speaker-banner">
-    <img src="{{ site.baseurl }}/images/speakers/MatthiasStahl.jpg" alt="Matthias Stahl" />
-    <div>
-        <div>January 25, 2022 with <strong>Matthias Stahl</strong></div>
-        <div class="title">From bench to news site: Changing the world with data visualization</div>
-    </div>
-</div>
+[Zoom link](https://tu-dresden.zoom.us/j/86078643977?pwd=dFZiNEIzcWhNUVRDZmt1MVdpWFpjUT09)  
+Meeting ID: 860 7864 3977
