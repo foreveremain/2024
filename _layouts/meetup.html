@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<ul class="breadcrumb">
+    <li class="active">You are here: &nbsp;</li>
+    <li><a href="{{ site.baseurl }}/" class="pathway">Home</a><span class="chevron">&rsaquo;</span></li>
+    {% if page.back_title %}
+    <li><a href="{{ site.baseurl }}{{page.back_url}}" class="pathway">{{page.back_title}}</a><span class="chevron">&rsaquo;</span></li>
+    {% endif %}
+    <li class="active"><span>{{ page.title }}</span></li>
+</ul>
+
+<article>
+    <div class="scalable-banner meetup-banner">
+        <img src="{{ site.baseurl }}/images/meetup-circle.svg" />
+        <div>
+            <p>Online meetup of the BioVis community</p>
+            <p>Discuss topics intersecting biology,<br />medicine & visualisation research.</p>
+            <p>Every other month, Tuesday<br />5pm Berlin / 4pm London / 11am Boston </p>
+            <p>updates BioVis-Meetup@groups-tu-dresden.de</p>
+        </div>
+    </div>
+
+    <h2>{{ page.title}}</h2>
+
+    {{ content }}
+
+    <h2>Future and past events</h2>
+
+    <ul>
+        {% for post in site.posts %}
+        {% capture category %}{{post.event}}{% endcapture %}
+        {% if category == "meetup" %}
+        <li>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <span style="margin-left: 0.5em">{{ post.meetup_date | date: "%b %-d, %Y" }}</span>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</article>
+

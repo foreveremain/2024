@@ -23,7 +23,15 @@ layout: home
         <div class="event-details">
             <div class="event-name">BioVis Meetup</div>
             <div class="event-location">Virtual</div>
-            <div class="event-date">March 22, 2022</div>
+            <div class="event-date">
+                {% for post in site.posts %}
+                {% capture category %}{{post.event}}{% endcapture %}
+                {% if category == "meetup" %}
+                    {{ post.meetup_date | date: "%B %-d, %Y" }}
+                    {% break %}
+                {% endif %}
+                {% endfor %}
+            </div>
         </div>
     </a>
     <div class="event-box">
