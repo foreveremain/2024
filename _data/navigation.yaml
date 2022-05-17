@@ -13,8 +13,8 @@ toc:
       - title: BioVis Meetup
         url: /meetup
       - heading: BioVis @ IEEE VIS
-      - title: Overview
-        url: /ieeevis
+      - title: BioVis Challenge
+        url: /biovisChallenges_vis
   - title: Resources
     subfolderitems:
       - heading: Meetings

@@ -2,8 +2,6 @@
 layout: page
 title: BioVis@IEEE Challenges Workshop
 permalink: /biovisChallenges_vis/
-back_title: IEEE VIS 2022
-back_url: ieeevis
 ---
 
 # Bio+MedVis Challenge @ IEEE VIS
@@ -145,7 +143,7 @@ should include:
 Last year, the acceptance rate for presentations happened to be 100%,
 yet such acceptance rate is not guaranteed. Selected submissions will be
 invited for talk presentations during the Bio+MedVis session within the
-IEEE VIS 2022 conference.
+[IEEE VIS 2022](http://ieeevis.org/) conference.
 
 ### Questions?
 
