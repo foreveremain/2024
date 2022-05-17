@@ -397,6 +397,18 @@ section > *:last-child {
     margin-bottom: 0;
 }
 
+figure {
+    margin: 2em;
+}
+
+figure > img {
+    max-width: 100%;
+}
+
+figure > figcaption {
+    font-size: 0.9em;
+}
+
 .home-info-section {
     background: var(--background-color-darker);
 

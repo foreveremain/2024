@@ -2,151 +2,182 @@
 layout: page
 title: BioVis@IEEE Challenges Workshop
 permalink: /biovisChallenges_vis/
-back_title: IEEE VIS 2021
+back_title: IEEE VIS 2022
 back_url: ieeevis
 ---
-<style>
-ul.dots {
-	padding-left:40px;
-}
-ul.dots li{
-	list-style-type: disc;
-}
-table td{
-    vertical-align:top;
-}
-table td{
-	border:1px solid #ccc
-}
-img.img_table{
-	width:200px;
-}
-.main_img img{
-	width:100%;
-}
-</style>
 
-<!--<br><br>
-<div style="background-color: #f2f2f2; border-style: solid; border-color: #009e9d; padding: 5px;">
-<h3> Submission for the 2020 BioVis challenges are now closed. Check out all the great talks coming up at <a href = " {{site.baseurl}}/program_ieee" > our virtual event </a> on October 26th 2020 </h3>
-</div>-->
+# Bio+MedVis Challenge @ IEEE VIS
 
-## SUBMISSION INSTRUCTIONS
-Please send a two-page PDF abstract with unlimited additional figures and a poster draft (max 10MB) to 
-[biovis_challenge@ieeevis.org](mailto:biovis_challenge@ieeevis.org) before **September 21st 2021, 23:59 PDT**. 
-Please also prepare a 5 minute pitch on video at the time. We will send you the instructions to submit this after the original submission.
+## Taming protein beasts through visualization
 
-## BioVIS CHALLENGE: “Spatial –omics Visualization” 
-Recent years have witnessed an explosion in spatial –omics technologies, such as spatial transcriptomics or proteomics. Nature Methods has declared spatial transcriptomics the method of the year [1], recognizing its importance. These -omics methods measure the expressions of tens of proteins to thousands of biomolecules simultaneously and map the corresponding values to spatial positions in tissue. They mostly (especially in proteomics) acquire data at sub-cellular resolution, allowing the identification of individual cells and their interplay in tissue and, as such, offer unprecedented insights into the complex and diverse tissue microenvironment. However, visually exploring spatial data is still a highly challenging task.
+How do 3D protein modifications relate to rare disease?
+### Goal
 
-<span class="main_img">![Spatial proteomics visual data analysis when using Imaging Mass Cytometry.](/images/challange/image7.png)</span>
+Understanding chemical modifications on the 3D structure of proteins has
+the potential to unlock cures for myriad rare diseases. This year, we
+provide a unique dataset of different types of new protein
+modifications. **We want your help** to visually understand where
+*protein modifications* are most likely to occur, and whether these are
+in loci with known connections to specific rare diseases.
 
-For this year’s BioVis Challenge, we teamed up with cancer biologists from the Leiden University Medical Center, who produced an Imaging Mass Cytometry (IMC) dataset. The dataset includes images from 21 colon cancers classified into four molecular subtypes. Each image is in the order of 1.000 by 1.000 pixels with 40 values (proteins) per pixel. We provide raw image data, segmentation masks of the contained cells, and labels for each cell type.
+### Background
 
-**The BioVis Challenge goal is to visualize spatial patterns in spatial -omics data <span style="text-decoration: underline">using either the dataset provided, OR other similar spatial -omics data you are working on.</span>** The appropriate patterns can include: i) cell colocalization; ii) protein/gene distribution within the samples or on co-localized cells; or iii) others of your choice! Based on different data facets, different approaches are possible. You can use one data facet or any combination!
+Proteins are the workhorses of cells. Their behavior can be regulated by
+chemical modifications called *post-translational modifications (PTMs)*.
+PTMs can be identified using technologies such as mass spectrometry
+(MS). However, proteins can encounter reactive chemicals as well, which
+occasionally attach themselves to proteins, creating *in vivo*
+artifacts. In addition, during analysis, proteins are subject to several
+processing steps, which introduce further intended and unintended
+chemical modifications, leading to additional *in vitro* artifacts. All
+of these modifications end up as additional layers of "decoration" on
+the proteins, which are also included in the MS analysis.
 
-## CHALLENGE TASKS
-Here are some potential challenges you can address in visualizing the provided data. We invite submissions tackling any number of these or other problems!
+Recently, researchers from VIB (Flemish Institute for Biotechnology,
+Ghent, Belgium) have developed Artificial Intelligence (AI) models
+\[1-3\] that can identify PTMs in an unbiased way. Remarkably, they have
+revealed that proteins can carry many more types of modifications than
+previously thought, highlighting the need to revise our way of
+visualizing proteins and their modifications. The formerly relatively
+simple protein sequences and structures have become "beasts" that we
+have yet to truly understand! *Can you tame the discovered protein
+"beasts" with the use of insightful, inspiring, and interactive
+visuals?* Challenge accepted!
 
-1. <span style="text-decoration: underline">**Visualize common cell co-localization patterns**</span> based on **segmented cells and their labels.** e.g. You can use a simple glyph to aggregate common motifs in a small multiples view (Somarakis et al. [2]). ![](/images/challange/image4.png)
+### Data Set
 
-1. <span style="text-decoration: underline">**Identify and visualize sample-specific cell neighborhoods**</span> based on **segmented cells and their labels**. Special care is needed for neighborhoods that (i) are sample-specific, consisting of cell types that are unique to, or more prevalent at that sample and (ii) include rare cell types which are often drowned out by neighborhoods of predominant types in that sample.
+The data are provided by domain experts from the CompOmics group at VIB
+and Ghent University in Ghent, Belgium. These include datasets for three
+proteins known to be important in rare diseases \[4\]: i) *Aldolase A
+(ALDOA) protein* in Hereditary nonspherocytic hemolytic anemia (HNSHA);
+ii) *Heterogeneous nuclear ribonucleoprotein A1 (HNRNPA1)* *protein* in
+Amyotrophic lateral sclerosis; and iii) *Transforming growth factor beta
+1 (TGFB1)* *protein* in Camurati--Engelmann disease.
 
-1. <span style="text-decoration: underline">**Visualize distinct protein distribution patterns within different cells**</span> by using **segmented cells and labels** as well as visualizing the **pixel data**. (i) Can you identify communicating cells through different protein distributions at the boundary?  (ii) Can the labels be refined based on this spatial information?
+For each protein, we provide i) a tab-delimited file that lists its
+modified loci (residues) and the modification type. These modifications
+were identified across human proteins in the publicly available
+proteomics identification database PRIDE \[5\] using the
+machine-learning based ionbot search engine \[3\]. Notably, a single
+residue may carry multiple types of modifications, but only one of these
+at a time; ii) annotations of known mutations that alter protein
+function, iii) structure files for these proteins (either experimental
+structures, or AlphaFold \[6\] predictions).
 
-1. Can you visualize the data effectively with a <span style="text-decoration: underline">**segmentation free approach**</span> by using the **pixel data** only? Can this provide more insight into spatial patterns than segmented data?
+### Tasks
 
-1. Can you <span style="text-decoration: underline">**improve segmentation masks**</span> using **pixel data** of all dimensions? Segmentation masks are usually based on a few dimensions; maybe cells can be segmented/visualized better by using all, or a selected set of dimensions of the raw **pixel data**.
+Once you *relate the detected modifications to the protein 3D structure*
+(for instance, unstructured regions are more likely hot-spots for
+modifications), the first task is to visualize multiple, potentially
+overlapping modifications on a protein structure in a user-intuitive
+way.
 
-### Dataset
-<ul class="dots">
-    <li> Real data on 22 colorectal cancers classified into 4 molecular subtypes, with up to 3 samples per cancer (60 samples total), generated by IMC. 39 proteins were measured simultaneously. Each pixel covers an area of 1µm2.</li>
-    <li> <strong>Raw pixel</strong> data as tiff images, where every image is an 8 bit grayscale encoding the measured expression of one protein. Additionally, we provide a binarized version of the data following a protocol in [3] in the same structure.</li>
-    <li> <strong>Segmentation masks</strong> as 32 bit tiff image files, where all pixels assigned to a cell are inscribed with a unique integer id.</li>
-    <li> <strong>Protein measurements</strong> aggregated per cell, according to the above segmentation.</li>
-    <li> <strong>Cell labels</strong> table that assigns a cell type label to every cell id from the segmentation masks.</li>
-</ul>  
-[The complete dataset can be downloaded here.](https://surfdrive.surf.nl/files/index.php/s/D4yWR3JJSlbmMTj)
+<figure>
+    <img src="../images/biovis-challenge/fig1.png" alt="Figure 1">
 
-**Disclaimer:** The provided dataset is currently not published and is provided for the purpose of this BioVis Challenge only. It must not be used for other publications until after the challenge is concluded and presented at the BioVis Challenge workshop @ IEEE Vis 2021 (25 October 2021). 
+    <figcaption>
+<strong>Figure 1.</strong> 3D representation of the protein structure. The different
+modifications have been indicated in color. Here, the structure is
+displayed as surface representation (but it can be changed).
+Modifications can be filtered based on their UniMod classification
+(right).3D representation of the protein structure. The different
+modifications are indicated in color. Here, the structure is displayed
+as surface representation (but it can be changed). Modifications can be
+filtered based on their UniMod classification (right).
+    </figcaption>
+</figure>
 
-<table>
-<tr>
-	<td><i>sample_ROI_information.csv</i></td>
-	<td>
-		Information on each sample.<br/><br/>
-		<strong>id:</strong> sample name<br/><br/>
-		<strong>CRC:</strong> patient/cancer signifier (multiple samples per cancer)<br/><br/>
-		<strong>CMS:</strong> cancer molecular subtype	
-	</td>
-	<td><img class="img_table" src="/2021/images/challange/image9.png"></td>
-</tr>
+The second task is to *relate a protein mutation that is known to be
+involved in a specific rare disease with its modification status, as
+well as those of residues proximal to it (proximity either by sequence
+or structure).* This is because a mutation can alter protein function by
+a variety of mechanisms, one of which is the alteration of a (proximal)
+modification site. Please note that this is because a mutation can
+render some of these modifications of the protein chemically impossible.
+For this challenge task, we provide you with several important mutations
+known to be involved in the proteins and rare diseases (i-iii) listed
+above.
 
-<tr>
-	<td><i>cell_labels/ROIXXX_cell_labels.csv</i></td>
-	<td>
-		One csv file per sample.<br/><br/>
-		Each file contains a single column, with each row number corresponding to a cell ID in <i>segmentation_mask.tiff</i>. Each row contains the cell type label for the corresponding cell in the sample.<br/><br/> 
-		The labels can be used for example to work directly on cell-based neighborhood visualizations, without using protein information.
-	</td>
-	<td><img class="img_table" src="/2021/images/challange/image8.png"></td>
-</tr>
+### Complementary challenge: Re-design an existing visualization
 
-<tr>
-	<td><i>aggregated_intensities/ ROIXXX_aggregated_intensities.csv</i></td>
-	<td>
-		One csv file per sample.<br/><br/>
-		Each file contains pixel fraction per cell that expresses each measured protein, based on data thresholds. Last few columns contain some morphological features.<br/><br/>
-		<i>Cell_id</i> column corresponds to those from <i>segmentation_mask.tiff</i>.<br/><br/>
-		Image_id column can be ignored.
-	</td>
-	<td><img class="img_table" src="/2021/images/challange/image2.png"></td>
-</tr>
+If you do not want to deep dive into the tasks above, you can
+participate in an alternative challenge! This re-design challenge is to
+take an existing visualization as a starting point. Your task is to
+revise and improve the visualization in the figures below based on
+fundamental visualization principles.
 
-<tr>
-	<td><i>ROIs</i> folder</td>
-	<td>
-		Contains subfolders for each sample in <i>sample_ROI_information.csv</i>.<br/><br/>
-		Additionally DNA expression is provided in <i>DNA1.tiff</i> and <i>DNA2.tiff</i>. DNA might be useful for segmentation tasks but are not relevant for cell type identification, hence we provide them separately.
-	</td>
-	<td><img class="img_table" src="/2021/images/challange/image3.png"></td>
-</tr>
+<figure>
+    <img src="../images/biovis-challenge/fig2.png" alt="Figure 2">
 
-<tr>
-	<td><i>raw</i> and <i>thresholded</i> folders</td>
-	<td>
-		The <i>raw</i> and <i>thresholded</i> folders contain the sample images.<br/><br/>
-		The 39 measured proteins are saved in individual <i>.tiff</i> files which will be combined for multi-dimensional analysis.<br/><br/>
-		Filenames are named after their protein.<br/><br/>
-		All images are 8bit grayscale <i>.tiff</i>
-	</td>
-	<td><img class="img_table" src="/2021/images/challange/image5.jpg"></td>
-</tr>
-
-<tr>
-	<td><i>DNA1.tiff</i> <br/> <i>DNA2.tiff</i></td>
-	<td>
-		Raw DNA measurements that might be useful for segmentation tasks but are not relevant for cell type identification, hence we provide them separately.<br/><br/>
-		Images are 8bit grayscale <i>.tiff</i>
-	</td>
-	<td><img class="img_table" src="/2021/images/challange/image1.png"></td>
-</tr>
-
-<tr>
-	<td><i>segmentation_mask.tiff</i></td>
-	<td>
-		IMC cell segmentation following the pipeline from Bodenmiller: <a href="https://github.com/BodenmillerGroup/ImcSegmentationPipeline">https://github.com/BodenmillerGroup/ImcSegmentationPipeline</a> <br/>
-		Segmentation is provided as a 32bit single-channel tiff image, where each cell is labelled with a unique 32 bit integer <strong>(starting at 1!)</strong>. For illustration on the right, we assigned a random color to each unique number (cell).
-
-	</td>
-	<td><img class="img_table" src="/2021/images/challange/image6.png"></td>
-</tr>
-
-</table>
+    <figcaption>
+<strong>Figure 2</strong>. Here, the various modifications (coloured circles)
+detected on each residue (x-axis) are presented. Some residues have no
+modifications, while others have many. The x-axis (representing all
+residues in the sequence) has been zoomed in here.
+    </figcaption>
+</figure>
 
 
-[1] Marx, V. **Method of the Year: spatially resolved transcriptomics.** Nature Methods 18, 9–14 (2021). https://doi.org/10.1038/s41592-020-01033-y
+<figure>
+    <img src="../images/biovis-challenge/fig3.png" alt="Figure 3">
 
-[2] Somarakis, A. et al., **ImaCytE: Visual Exploration of Cellular Microenvironments for Imaging Mass Cytometry Data.** IEEE Transactions on Visualization and Computer Graphics, 27(1): pp. 98–110, 2021. https://doi.org/10.1109/TVCG.2019.2931299
+    <figcaption>
+<strong>Figure 3.</strong> Here, the various modifications (coloured circles)
+detected on each residue (x-axis) are presented. Some residues have no
+modifications, while others have many. The x-axis (representing all
+residues in the sequence) here represents the full protein sequence.
+    </figcaption>
+</figure>
 
-[3] Ijsselsteijn, M.E. et al., **Semi-Automated Background Removal Limits Loss of Data and Normalises the Images for Downstream Analysis of Imaging Mass Cytometry Data.** bioRxiv, 2020. https://dx.doi.org/10.1101/2020.11.26.399717
+### Submission
+
+Submissions will be considered for talk or poster presentations. Please
+send a two-page PDF abstract with unlimited additional figures and a
+draft of your proposed poster (max 10MB) to biovis_challenge@ieeevis.org
+latest on **September 1st 2022 (anywhere on earth).** The abstract
+should include:
+
+- aspects of the figure identified as needing improvement or clarification,
+- justification of encoding and design choices,
+- at least one or more images of your design
+- optional: a video or screencast to explain the visual encoding
+
+Last year, the acceptance rate for presentations happened to be 100%,
+yet such acceptance rate is not guaranteed. Selected submissions will be
+invited for talk presentations during the Bio+MedVis session within the
+IEEE VIS 2022 conference.
+
+### Questions?
+
+Please feel free to ask questions on our Slack channel if you need more
+information and details about the data or tasks.
+
+## References
+
+\[1\] Gabriels, R., Martens, L. and Degroeve, S., 2019. Updated MS²PIP
+web server delivers fast and accurate MS² peak intensity prediction for
+multiple fragmentation methods, instruments and labeling techniques.
+Nucleic acids research, 47(W1), pp.W295-W299.
+[https://pubmed.ncbi.nlm.nih.gov/31028400/](https://pubmed.ncbi.nlm.nih.gov/31028400/)
+
+\[2\] Bouwmeester, R., Gabriels, R., Hulstaert, N., Martens, L. and
+Degroeve, S., 2021. DeepLC can predict retention times for peptides that
+carry as-yet unseen modifications. Nature methods, 18(11), pp.1363-1369.
+[https://pubmed.ncbi.nlm.nih.gov/34711972/](https://pubmed.ncbi.nlm.nih.gov/34711972/)
+
+\[3\] Degroeve, S., Gabriels, R., Velghe, K., Bouwmeester, R.,
+Tichshenko, N. and Martens, L., 2021. ionbot: a novel, innovative and
+sensitive machine learning approach to LC-MS/MS peptide identification.
+[https://www.biorxiv.org/content/10.1101/2021.07.02.450686v2](https://www.biorxiv.org/content/10.1101/2021.07.02.450686v2)
+
+\[4\]
+[https://www.ncbi.nlm.nih.gov/clinvar/](https://www.ncbi.nlm.nih.gov/clinvar/)
+
+\[5\] Martens, L., Hermjakob, H., Jones, P., Adamski, M., Taylor, C.,
+States, D., Gevaert, K., Vandekerckhove, J. and Apweiler, R., 2005.
+PRIDE: the proteomics identifications database. Proteomics, 5(13),
+pp.3537-3545.
+[https://pubmed.ncbi.nlm.nih.gov/16041671/](https://pubmed.ncbi.nlm.nih.gov/16041671/)
+
+\[6\]
+[https://alphafold.ebi.ac.uk/](https://alphafold.ebi.ac.uk/)
