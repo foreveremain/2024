@@ -19,5 +19,4 @@ and Heba Sailem ([@hsailem](https://twitter.com/hsailem)).
 Join us on *Tuesday, 22nd of March* at 5pm Berlin / 4 pm
 London / 11am East Coast US / 8 am California / (recording available)
 
-[Zoom link](https://tu-dresden.zoom.us/j/86078643977?pwd=dFZiNEIzcWhNUVRDZmt1MVdpWFpjUT09)  
-Meeting ID: 860 7864 3977
+Recordings on YouTube: [Heba](https://youtu.be/rAxHW6YXcXU), [Fabian](https://youtu.be/8CspRT0oZv8).
