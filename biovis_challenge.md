@@ -62,6 +62,8 @@ at a time; ii) annotations of known mutations that alter protein
 function, iii) structure files for these proteins (either experimental
 structures, or AlphaFold \[6\] predictions).
 
+Download link: [2022_BioMedVisChallenge_Data.zip]({{ site.baseurl }}/data/2022_BioMedVisChallenge_Data.zip)
+
 ### Tasks
 
 Once you *relate the detected modifications to the protein 3D structure*
