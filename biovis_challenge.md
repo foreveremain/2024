@@ -150,7 +150,8 @@ invited for talk presentations during the Bio+MedVis session within the
 ### Questions?
 
 Please feel free to ask questions on our Slack channel if you need more
-information and details about the data or tasks.
+information and details about the data or tasks:  
+[biovis2016.slack.com](https://biovis2016.slack.com/) >> #biovis-challenge2022
 
 ## References
 
