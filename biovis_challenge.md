@@ -80,10 +80,7 @@ way.
 modifications have been indicated in color. Here, the structure is
 displayed as surface representation (but it can be changed).
 Modifications can be filtered based on their UniMod classification
-(right).3D representation of the protein structure. The different
-modifications are indicated in color. Here, the structure is displayed
-as surface representation (but it can be changed). Modifications can be
-filtered based on their UniMod classification (right).
+(right).
     </figcaption>
 </figure>
 
