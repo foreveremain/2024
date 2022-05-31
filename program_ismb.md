@@ -14,6 +14,11 @@ back_url: ismb
 
 ### Once upon a time in Bio-Medical Data Visualization: Reflections on Research Before and During Pandemic
 
+<figure class="speaker-photo">
+    <img src="{{ site.baseurl }}/images/speakers/tatiana_von_landesberger.jpg" alt="Tatiana von Landesberger" />
+    <figcaption>Prof. Tatiana von Landesberger</figcaption>
+</figure>
+
 [Tatiana von Landesberger](https://visva.cs.uni-koeln.de/landesberger),
 University of Cologne
 
