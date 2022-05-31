@@ -672,6 +672,27 @@ ul.post-list {
     border-radius: 5px;
 }
 
+.speaker-photo {
+    float: right;
+
+    width: min(35vw, 17em);
+
+    margin-top: 1em;
+    margin-right: 0;
+    margin-left: 2em;
+    margin-bottom: 1em;
+
+    text-align: center;
+}
+
+.speaker-photo img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.speaker-photo figcaption {
+}
+
 /****** Speakers (TAKEN FROM VDS 2015)****/
 
 .talk {
