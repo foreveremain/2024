@@ -46,7 +46,7 @@ larger historical perspective and present specific solutions from own
 experience, including reflections on data, task and user triangle as well as the
 challenges of multidisciplinary working styles.
 
-**Bio:** Tatiana von Landesberger is a full professor of Computer Science –
+**Speaker Biography:** Tatiana von Landesberger is a full professor of Computer Science –
 Visualization at University of Cologne, Germany. She received a PhD in 2010 and
 finished her habilitation in 2017 at TU Darmstadt, Germany. Her research focuses
 on information visualization and visual analytics of spatio-temporal and network
@@ -114,7 +114,7 @@ We can also use these proteome-wide results to analyse tissues and even cell
 types for their protein composition, yielding detailed information on
 tissue-specific proteomes with potentially far-reaching applications.
 
-**Bio:** Lennart Martens is Full Professor of Systems Biology at Ghent
+**Speaker Biography:** Lennart Martens is Full Professor of Systems Biology at Ghent
 University, Group Leader of the Computational Omics and Systems Biology
 (CompOmics) group at VIB, and Associate Director of the VIB-UGent Center for
 Medical Biotechnology, all in Ghent, Belgium. He has been working in proteomics
