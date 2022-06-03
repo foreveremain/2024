@@ -4,7 +4,7 @@ title: Committees
 menu: main
 ---
 
-# Committees 
+# Committees
 
 ## Organizing Committee for BioVis {{site.year}}
 
@@ -27,7 +27,7 @@ menu: main
 
 [Jan Byska](https://vis.uib.no/team/jan-byska/), Masaryk University, Czech Republic and University of Bergen, Norway  
 [Heba Sailem](https://www.hebasailem.com/), University of Oxford, UK  
-[Qianwen Wang](https://qianwen.info/), Harvard University, USA  
+[Qianwen Wang](https://qianwen.info/), Harvard University, USA
 
 ### ISMB Liaison Chairs
 
@@ -38,9 +38,9 @@ menu: main
 ### Chairs
 
 [Zeynep H Gumus](https://icahn.mssm.edu/profiles/zeynep-h-gumus2), Icahn School of Medicine at Mount Sinai, USA  
-[Thomas Höllt](https://www.thomashollt.com), Leiden University Medical Center, The Netherlands  
+[Thomas Höllt](https://www.thomashollt.com), TU Delft, The Netherlands  
 [Daniel Jönsson](https://liu.se/en/employee/danjo37), Linköping University, Sweden  
-[Renata Raidou](https://renataraidou.com/), TU Wien, Austria  
+[Renata Raidou](https://renataraidou.com/), TU Wien, Austria
 
 ## Steering Committee
 
