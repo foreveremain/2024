@@ -808,6 +808,30 @@ ul.post-list {
     font-size: 1em;
 }
 
+.schedulerow {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1.5em;
+}
+
+.schedulerow > :first-child {
+    flex-shrink: 0;
+
+    border-right: 1px dashed #aaa;
+    padding-right: 1em;
+}
+
+.schedulerow ul {
+    line-height: 120%;
+}
+
+.schedulerow .speaker {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* --- */
+
 svg {
     fill: currentColor;
 }
