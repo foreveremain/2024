@@ -83,6 +83,7 @@ modifications have been indicated in color. Here, the structure is
 displayed as surface representation (but it can be changed).
 Modifications can be filtered based on their UniMod classification
 (right).
+
 </figcaption>
 
 </figure>
@@ -100,11 +101,18 @@ above.
 
 ### Complementary challenge: Re-design an existing visualization
 
-If you do not want to deep dive into the tasks above, you can
-participate in an alternative challenge! This re-design challenge is to
-take an existing visualization as a starting point. Your task is to
-revise and improve the visualization in the figures below based on
-fundamental visualization principles.
+If you do not want to deep dive into the tasks above, you can participate in an
+alternative challenge! This re-design challenge is to take an existing
+visualization as a starting point. Your task is to revise and improve the
+visualization in the figures below based on fundamental visualization
+principles. These visualizations show all PTMs identified on protein
+**ATP-dependent RNA helicase DDX3X**; these PTMs can alter the enzyme activity,
+thus affecting protein translation and cell growth. Due to the large number of
+modifications and modified residues, visualizations can become extremely
+cluttered (see Figure 3), which is the main problem to address in this redesign
+challenge. An important aspect to emphasize is how multiple modifications can
+occur on the same site, as this implies substrate competition between different
+protein-modifying enzymes.
 
 <figure>
     <img src="../images/biovis-challenge/fig2.png" alt="Figure 2">
@@ -115,6 +123,7 @@ fundamental visualization principles.
 detected on each residue (x-axis) are presented. Some residues have no
 modifications, while others have many. The x-axis (representing all
 residues in the sequence) has been zoomed in here.
+
 </figcaption>
 
 </figure>
@@ -128,6 +137,7 @@ residues in the sequence) has been zoomed in here.
 detected on each residue (x-axis) are presented. Some residues have no
 modifications, while others have many. The x-axis (representing all
 residues in the sequence) here represents the full protein sequence.
+
 </figcaption>
 
 </figure>
