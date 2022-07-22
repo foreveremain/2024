@@ -166,6 +166,15 @@ Please feel free to ask questions on our Slack channel if you need more
 information and details about the data or tasks:  
 [biovis2016.slack.com](https://biovis2016.slack.com/) >> #biovis-challenge2022
 
+Otherwise, feel free to contact us at: [biovis_challenge@ieeevis.org](biovis_challenge@ieeevis.org)
+
+The chairs of the Bio+MedVis Challenge @ IEEE VIS:
+
+-   Zeynep Gumus (Icahn School of Medicine at Mount Sinai, USA) [zeynep.gumus (at) mssm.edu]
+-   Thomas Höllt (TU Delft, Netherlands) [T.Hollt-1 (at) tudelft.nl]
+-   Daniel Jönsson (Linköping University, Sweden) [daniel.jonsson (at) liu.se]
+-   Renata Raidou (TU Wien, Austria) [rraidou (at) cg.tuwien.ac.at]
+
 ## References
 
 \[1\] Gabriels, R., Martens, L. and Degroeve, S., 2019. Updated MS²PIP
