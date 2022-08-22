@@ -63,7 +63,9 @@ at a time; ii) annotations of known mutations that alter protein
 function, iii) structure files for these proteins (either experimental
 structures, or AlphaFold \[6\] predictions).
 
-Download link: [2022_BioMedVisChallenge_Data.zip]({{ site.baseurl }}/data/2022_BioMedVisChallenge_Data.zip)
+Download link: [2022_BioMedVisChallenge_Data_Ver2.zip]({{ site.baseurl }}/data/2022_BioMedVisChallenge_Data_Ver2.zip)  
+(2022-08-22: Updated data set with the protein ATP-dependent RNA helicase DDX3X that can be used for the re-design
+challenge.)
 
 ### Tasks
 
