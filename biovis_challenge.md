@@ -149,7 +149,7 @@ residues in the sequence) here represents the full protein sequence.
 Submissions will be considered for talk or poster presentations. Please
 send a two-page PDF abstract with unlimited additional figures and a
 draft of your proposed poster (max 10MB) to biovis_challenge@ieeevis.org
-latest on **September 1st 2022 (anywhere on earth).** The abstract
+latest on **September 9th 2022 (anywhere on earth).** The abstract
 should include:
 
 -   aspects of the figure identified as needing improvement or clarification,
