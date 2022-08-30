@@ -6,4 +6,4 @@ author: Daniel Jönsson
 ---
 
 The deadline of the [Bio+MedVis Challenge]({{ site.baseurl }}/biovisChallenges_vis)
-submission has been postponed to _September 9th_.
+submission has been extended to _September 9th_.
