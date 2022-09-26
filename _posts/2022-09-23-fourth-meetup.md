@@ -28,8 +28,7 @@ Increasingly powerful technological developments in surgery such as modern opera
 In this talk, Stefanie Spidel presents her recent research regarding AI-assisted surgery with a specific focus on visualization for intraoperative assistance. Several examples to optimize the therapy of the individual patient by turning the available data into useful information are given, including context-aware assistance via augmented reality. Finally, remaining challenges and strategies to overcome them are discussed.
 
 ### Where
-Zoom link: 
-https://tu-dresden.zoom.us/j/86078643977?pwd=dFZiNEIzcWhNUVRDZmt1MVdpWFpjUT09
+[Zoom link](https://tu-dresden.zoom.us/j/86078643977?pwd=dFZiNEIzcWhNUVRDZmt1MVdpWFpjUT09)
 Meeting ID: 860 7864 3977
 Passcode: T3ht0M#!
 
