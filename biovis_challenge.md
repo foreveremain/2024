@@ -4,7 +4,9 @@ title: Bio+MedVis Challenge
 permalink: /biovisChallenges_vis/
 ---
 
-# Bio+MedVis Challenge @ IEEE VIS
+# Bio+MedVis Challenge @ IEEE VIS 2022
+
+[Program](../program_ieee)
 
 ## Taming protein beasts through visualization
 

@@ -814,11 +814,23 @@ ul.post-list {
     margin-bottom: 1.5em;
 }
 
+@media only screen and (max-width: 700px) {
+    .schedulerow {
+        display: block;
+    }
+
+    .schedulerow > :first-child {
+        margin-bottom: 0.5em;
+    }
+}
+
 .schedulerow > :first-child {
     flex-shrink: 0;
+}
 
-    border-right: 1px dashed #aaa;
-    padding-right: 1em;
+.schedulerow > :nth-child(2) {
+    padding-left: 1em;
+    border-left: 1px dashed #aaa;
 }
 
 .schedulerow ul {
@@ -828,6 +840,14 @@ ul.post-list {
 .schedulerow .speaker {
     font-weight: bold;
     text-decoration: underline;
+}
+
+.schedulerow details {
+    margin-top: 1em;
+}
+
+.schedulerow details summary {
+    cursor: pointer;
 }
 
 /* --- */
