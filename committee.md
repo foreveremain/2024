@@ -25,8 +25,8 @@ menu: main
 
 ### Abstracts Chairs
 
-[Jan Byska](https://vis.uib.no/team/jan-byska/), Masaryk University, Czech Republic and University of Bergen, Norway  
-[Heba Sailem](https://www.hebasailem.com/), University of Oxford, UK  
+Katarína Furmanová, Masaryk University, Czech Republic  
+Aditeya Pandey, Regeneron Genetics Center, United States  
 [Qianwen Wang](https://qianwen.info/), Harvard University, USA
 
 ### ISMB Liaison Chairs
