@@ -6,6 +6,8 @@ permalink: /previousYears/
 
 ## Previous BioVis Websites
 
+2022: [Dual-Meeting (IEEEVIS/ISMB) Biological Data Visualization](http://biovis.net/2022)
+
 2021: [Dual-Meeting (IEEEVIS/ISMB) Biological Data Visualization](http://biovis.net/2021)
 
 2020: [Dual-Meeting (IEEEVIS/ISMB) Biological Data Visualization](http://biovis.net/2020)

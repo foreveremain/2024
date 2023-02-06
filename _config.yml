@@ -1,18 +1,17 @@
 # Site settings
-title: "BioVis 2022"
+title: "BioVis 2023"
 email: "website@biovis.net"
 description: "Biological Data Visualization"
-baseurl: "/2022"
+baseurl: "/2023"
 url: "http://biovis.net"
-conferenceshort: "BioVis 2022"
+conferenceshort: "BioVis 2023"
 
 #FIX ME: the event number is most likely not correct
-#eventNum: "12th" 
+#eventNum: "12th"
 
-IEEEconferencedate: "Oct 16, 2022"
-IEEEconferenceplace: "Oklahoma City, OK, USA (Hybrid)"
-year: 2022
-
+IEEEconferencedate: "TBA"
+IEEEconferenceplace: "TBA"
+year: 2023
 
 # Old deadlines so I remember what they're called
 # When everything breaks
@@ -21,30 +20,30 @@ year: 2022
 #IEEE_deadline_camera: "TBD"
 #IEEE_deadline_poster: "TBD"
 
-ismb_conference_name: "ISMB 2022"
-ismb_conference_link: "https://www.iscb.org/ismb2022"
-ismb_conference_registration_link: "https://www.iscb.org/ismb2022-register"
-ismb_conference_date: "July 10-14, 2022"
-ismb_conference_place: "Madison, WI, USA (or virtual)"
-ismb_conference_key_dates_link: "https://www.iscb.org/ismb2022-key-dates"
+ismb_conference_name: "ISMB/ECCB 2023"
+ismb_conference_link: "https://www.iscb.org/ismbeccb2023"
+ismb_conference_registration_link: "https://www.iscb.org/ismbeccb2023-register"
+ismb_conference_date: "July 23 - 27, 2023"
+ismb_conference_place: "Lyon, France (and virtual)"
+ismb_conference_key_dates_link: "https://www.iscb.org/ismbeccb2023-dates"
 
-ismb_cosi_date: "July 13, 2022"
+ismb_cosi_date: "July 25, 2023"
 
-ismb_paper_submission_deadline: "January 13, 2022"
-ismb_paper_conditional_acceptance: "March 3, 2022"
-ismb_paper_revision_deadline: "March 17, 2022"
-ismb_paper_final_acceptance: "April 4, 2022"
+ismb_paper_submission_deadline: "January 19, 2023"
+ismb_paper_conditional_acceptance: "March 9, 2023"
+ismb_paper_revision_deadline: "March 23, 2023"
+ismb_paper_final_acceptance: "April 10, 2023"
 
-ismb_talk_submission_deadline: "April 21, 2022"
-ismb_talk_acceptance: "May 12, 2022"
+ismb_talk_submission_deadline: "April 20, 2023"
+ismb_talk_acceptance: "May 11, 2023"
 
-ismb_poster_submission_deadline: "April 21, 2022"
-ismb_poster_acceptance: "May 12, 2022"
-ismb_poster_late_submission_deadline: "May 19, 2022"
-ismb_poster_late_acceptance: "May 26, 2022"
+ismb_poster_submission_deadline: "April 20, 2023"
+ismb_poster_acceptance: "May 11, 2023"
+ismb_poster_late_submission_deadline: "May 18, 2023"
+ismb_poster_late_acceptance: "May 25, 2023"
 
-ismb_paper_submission_link: "https://www.iscb.org/ismb2022-submissions/proceedings"
-ismb_abstract_submission_link: "https://www.iscb.org/ismb2022-submissions/abstracts"
+ismb_paper_submission_link: "https://www.iscb.org/ismbeccb2023-submissions/proceedings"
+ismb_abstract_submission_link: "https://www.iscb.org/ismbeccb2023-submissions/abstracts"
 
 #bmc_submission_deadline: ""
 #bmc_conditional_accept: ""
@@ -54,7 +53,7 @@ ismb_abstract_submission_link: "https://www.iscb.org/ismb2022-submissions/abstra
 markdown: kramdown
 
 collections:
-- posters_ISMB
+    - posters_ISMB
 
 google_analytics: "'UA-22015250-1'"
 use_analytics: true
