@@ -25,8 +25,8 @@ menu: main
 
 ### Abstracts Chairs
 
-Katarína Furmanová, Masaryk University, Czech Republic  
-Aditeya Pandey, Regeneron Genetics Center, United States  
+[Katarína Furmanová](https://www.muni.cz/en/people/374538-katarina-furmanova), Masaryk University, Czech Republic  
+[Aditeya Pandey](https://aditeyapandey.github.io/), Regeneron Genetics Center, United States  
 [Qianwen Wang](https://qianwen.info/), Harvard University, USA
 
 ### ISMB Liaison Chairs
