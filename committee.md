@@ -38,10 +38,10 @@ menu: main
 
 ### Chairs
 
-[Zeynep H Gumus](https://icahn.mssm.edu/profiles/zeynep-h-gumus2), Icahn School of Medicine at Mount Sinai, USA  
-[Thomas Höllt](https://www.thomashollt.com), TU Delft, The Netherlands  
+[Barbora Kozlikova](https://www.fi.muni.cz/~xkozlik/), Masaryk University, Czech Republic  
 [Daniel Jönsson](https://liu.se/en/employee/danjo37), Linköping University, Sweden  
-[Renata Raidou](https://renataraidou.com/), TU Wien, Austria
+[Renata Raidou](https://renataraidou.com/), TU Wien, Austria  
+[Sean O'Donoghue](https://www.garvan.org.au/about-us/people/seaodo), Garvan Institute of Medical Research, Sydney
 
 ## Steering Committee
 
