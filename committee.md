@@ -34,7 +34,7 @@ menu: main
 
 [Jim Procter](https://www.lifesci.dundee.ac.uk/people/jim-procter), University of Dundee, UK
 
-## BioVis Workshop @ IEEE VIS {{site.year}}
+## Bio+MedVis Challenge @ IEEE VIS {{site.year}}
 
 ### Chairs
 
