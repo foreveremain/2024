@@ -4,6 +4,7 @@ _site/
 _deploy/
 /Gemfile
 /Gemfile.lock
+/vendor
 *.sublime-*
 css/site.css
 .DS_Store
