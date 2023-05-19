@@ -102,8 +102,7 @@ thereof:
 
 In addition to the main challenge, we also host a complementary design
 challenge. Teams that submitted entries to the main challenges are allowed to
-submit also to the design challenge track. Submitters to the design challenge,
-however, do not necessarily need to submit also to the design challenge track.
+also submit to the design challenge track and vice versa.
 
 For this challenge, submitters are asked to improve the current protein network
 plot in Fig. 7F ([Gonçalves et al.,
