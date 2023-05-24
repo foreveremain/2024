@@ -57,7 +57,7 @@ activities.
 
 <figure class="speaker-photo">
     <img src="{{ site.baseurl }}/images/speakers/anna_vilanova.jpg" alt="Anna Vilanova" />
-    <figcaption>Anna Vilanova</figcaption>
+    <figcaption>Prof. Anna Vilanova</figcaption>
 </figure>
 
 [Anna Vilanova](https://www.tue.nl/en/research/researchers/anna-vilanova), Eindhoven University of Technology, Eindhoven
