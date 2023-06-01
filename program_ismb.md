@@ -90,4 +90,4 @@ Committee (VSC) since 2021.
 
 ## Program
 
-To be announced...
+{% include_relative program_ismb_timetable.html %}

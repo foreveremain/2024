@@ -830,6 +830,7 @@ ul.post-list {
 
 .schedulerow > :first-child {
     flex-shrink: 0;
+    min-width: 5em;
 }
 
 .schedulerow > :nth-child(2) {
