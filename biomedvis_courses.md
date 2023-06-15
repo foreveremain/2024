@@ -1,3 +1,9 @@
+---
+layout: page
+title: Upcoming Bio+MedVis Courses
+permalink: /biomedvis_courses/
+---
+
 # Upcoming Bio+Med Vis Courses
 
 This is a placeholder page for upcoming Bio+Med Vis courses. Please add your course to table below.
