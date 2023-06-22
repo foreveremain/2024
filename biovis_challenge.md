@@ -6,6 +6,8 @@ permalink: /biovisChallenges_vis/
 
 # Bio+MedVis Challenge @ IEEE VIS 2023
 
+{% include_relative biovis_challenge_news.html %}
+
 ## Summary
 
 This year’s challenge will be based on a study recently published in Cancer Cell

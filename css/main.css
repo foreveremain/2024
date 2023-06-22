@@ -954,3 +954,35 @@ li > time {
     background-color: var(--background-color-emphasis);
     color: var(--text-color-on-emphasis);
 }
+
+.latest-news {
+    padding: 1em;
+    border: 2px solid;
+    border-color: var(--background-color-dark);
+    border-radius: 0.3em;
+}
+
+.latest-news :first-child {
+    margin-top: 0;
+}
+
+.latest-news :last-child {
+    margin-bottom: 0;
+}
+
+.latest-news h2 {
+    font-size: 2em;
+}
+
+.latest-news h3 {
+    font-size: 1.5em;
+}
+
+.latest-news p {
+    margin: 0.5em 0;
+}
+
+.latest-news .latest-news-date {
+    margin-left: 0.7em;
+    font-size: 0.7em;
+}

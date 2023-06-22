@@ -1,0 +1,12 @@
+<div class="latest-news">
+    <h2>Latest News</h2>
+    {% for post in site.categories.challenge limit:2 %}
+    <h3>{{ post.title }}
+        <span class="latest-news-date">
+            {{ post.date | date: "%-d %b %Y" }}
+        </span>
+    </h3>
+    {{ post.excerpt }}
+    <p><a href="{{ post.url | prepend: site.baseurl }}">Read more...</a></p>
+    {% endfor %}
+</div>
