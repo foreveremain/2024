@@ -53,7 +53,7 @@ simulations of biological macromolecules and bioinformatics with
 high-performance computing, virtual reality, visualization, and dissemination
 activities.
 
-### Talk title to be announced...
+### A view on Visual Analytics for Biomedical Applications
 
 <figure class="speaker-photo">
     <img src="{{ site.baseurl }}/images/speakers/anna_vilanova.jpg" alt="Anna Vilanova" />
@@ -61,6 +61,25 @@ activities.
 </figure>
 
 [Anna Vilanova](https://www.tue.nl/en/research/researchers/anna-vilanova), Eindhoven University of Technology, Eindhoven
+
+**Abstract:** Visual analytics is a branch of visualization that focuses on
+analytical reasoning facilitated by interaction and visual representations.
+Visual analytics is an extension to AI methods. It is also a complement to the
+already existing visualization techniques by the introduction of the concepts
+of reasoning and AI. Interaction and enhancement of human reasoning and
+decision making are central. The research in my group has focused on visual
+analytics for data exploration, hypothesis generation and understanding for
+biomedical applications, such as, virtual colonoscopy, diffusion weighted
+imaging for brain white-matter and muscle, 4D blood flow analysis,
+radiotherapy, single cell analysis and Pangenomes. For these purposes, we
+developed interactive visual analysis strategies, including uncertainties, and
+facilitating the analysis of cohort data. We incorporated concepts of
+progressive visual analytics and the use of dimensionality reduction as an
+effective VA component for large data visual analysis for these applications.
+In my talk, I will present multiple examples of our developments on biomedical
+applications, the common visual analytics concepts and design strategies we
+took for the design of those applications, and a glance on lessons learned and
+open challenges.
 
 **Speaker Biography:**
 Prof.Dr. Anna Vilanova is full professor in visual analytics (vis.win.tue.nl)
