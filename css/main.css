@@ -815,7 +815,7 @@ ul.post-list {
 .schedulerow {
     display: flex;
     gap: 1em;
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
 }
 
 @media only screen and (max-width: 700px) {
@@ -825,6 +825,7 @@ ul.post-list {
 
     .schedulerow > :first-child {
         margin-bottom: 0.5em;
+        font-size: 120%;
     }
 }
 
@@ -854,6 +855,16 @@ ul.post-list {
 .schedulerow details summary {
     cursor: pointer;
 }
+
+.schedulerow .room strong,
+.scheduledetails p strong:first-child {
+    font-weight: normal;
+}
+
+.scheduledetails p {
+    margin-bottom: 0;
+}
+
 
 /* --- */
 
