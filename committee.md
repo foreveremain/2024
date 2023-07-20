@@ -42,6 +42,13 @@ menu: main
 [Daniel Jönsson](https://liu.se/en/employee/danjo37), Linköping University, Sweden  
 [Renata Raidou](https://renataraidou.com/), TU Wien, Austria
 
+## BioVis Meetup {{site.year}}
+
+### Chairs
+
+[Helena Jambor](https://helenajambor.wordpress.com/), TU Dresden, Germany  
+[Heba Sailem](https://www.hebasailem.com/), King's College London, UK
+
 ## Steering Committee
 
 [Jim Procter](https://www.lifesci.dundee.ac.uk/people/jim-procter), University of Dundee, UK  
