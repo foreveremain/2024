@@ -43,6 +43,13 @@ menu: main
 [Renata Raidou](https://renataraidou.com/), TU Wien, Austria  
 [Sean O'Donoghue](https://www.garvan.org.au/about-us/people/seaodo), Garvan Institute of Medical Research, Sydney
 
+## BioVis Meetup {{site.year}}
+
+### Chairs
+
+[Helena Jambor](https://helenajambor.wordpress.com/), TU Dresden, Germany  
+[Zeynep Gümüş](https://labs.icahn.mssm.edu/gumuslab/), Icahn School of Medicine at Mount Sinai, USA
+
 ## Steering Committee
 
 [Jim Procter](https://www.lifesci.dundee.ac.uk/people/jim-procter), University of Dundee, UK  
