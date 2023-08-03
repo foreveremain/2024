@@ -136,12 +136,12 @@ sessions. Details will follow soon.
 ## Submission
 
 Submissions will be considered for talk and/or poster presentations. You will be
-requested to submit a two-page PDF abstract with unlimited additional figures
-and a draft of your proposed poster (max 10MB) to the PCS. The deadlines will be
-announced soon. Last year, the acceptance rate for presentations was 89%; such
+requested to submit a two-page PDF abstract with up to 5 additional figures
+and a draft of your proposed poster (max 10MB) to the PCS (https://new.precisionconference.com/submissions). If you want to submit more supplementary figures, please contact us. 
+Last year, the acceptance rate for presentations was 89%; such
 an acceptance rate is not guaranteed. Selected submissions will be invited for
 talk presentations during the Bio+MedVis Challenge session within the [IEEE VIS
-2023](https://ieeevis.org/year/2023/welcome) conference.
+2023](https://ieeevis.org/year/2023/welcome) conference and also will be presented as posters.
 
 ## Questions?
 
