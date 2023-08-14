@@ -143,6 +143,9 @@ an acceptance rate is not guaranteed. Selected submissions will be invited for
 talk presentations during the Bio+MedVis Challenge session within the [IEEE VIS
 2023](https://ieeevis.org/year/2023/welcome) conference and also will be presented as posters.
 
+## Evaluation of Submissions
+All submissions will be thoroughly reviewed by at least two reviewers, coming from the challenge chairs and members of the ProCan team. All accepted submissions will be published in the conference proceedings.
+
 ## Questions?
 
 Please feel free to ask questions on our Slack channel if you need more
