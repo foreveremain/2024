@@ -20,6 +20,13 @@ Recipient: Felix Offensperger, Markus Joppich, Ralf Zimmer
 Affiliation: Ludwig-Maximilians-Universität München, Germany  
 Title: Visualizing (differential) expression patterns with fuzzy concepts as FlowSets
 
+### Test-of-Time Award
+
+Recipient: Kenneth Sabir, Christian Stolte, Bruce Tabor, Seán I. O'Donoghue  
+Title: The Molecular Control Toolkit: Controlling 3D molecular graphics via gesture and voice
+
+Seán's presentation is available in [dropbox](https://www.dropbox.com/scl/fi/ombllo7597cl2w1n9iqxx/MCTK.pdf?rlkey=4c1885pmrzghn5xderqzjdanr&dl=0).
+
 <figure>
     <img alt="Best Abstract Award]" src="{{ site.baseurl }}/images/awards/ismbeccb2023-best-abstract.webp">
 </figure>
