@@ -56,7 +56,7 @@ Novel, unpublished work can be submitted as a paper to the ISMB Proceedings. If 
 
 #### Submission Guidelines
 
-Authors are required to submit a full paper by <time>{{ site.ismb_paper_submission_deadline }}</time> through the [ISMB submission site]({{ site.ismb_paper_submission_link }}), and must adhere to the submission guidelines also outlined on [the same page]({{ site.ismb_paper_submission_link }}).
+Authors are required to submit a full paper by <time>{{ site.ismb_paper_submission_deadline }}</time> through the [ISMB proceedings submission site]({{ site.ismb_paper_submission_link }}), and must adhere to the submission guidelines also outlined on [the same page]({{ site.ismb_paper_submission_link }}).
 
 **IMPORTANT: During submission please select the general subject of your submissions (the “AREA”), and then make sure to specify BioVis as the “TOPIC” of your submission to ensure your manuscript is assigned to our COSI.**
 
@@ -68,12 +68,11 @@ Participants are encouraged to submit short abstracts describing their recently 
 
 #### Submission Guidelines
 
-Published work: Authors are required to submit a short abstract (250 words) by <time>{{ site.ismb_talk_submission_deadline }}</time>. Abstracts should include a concise description of the work and may include descriptive figures. The previously published paper **must** be submitted along with the abstract, unless the paper is open access.
+Authors are required to submit an abstract by {{ site.ismb_talk_submission_deadline }} through the [ISMB abstract submission site]({{ site.ismb_abstract_submission_link }}). Apart from the submission guidelines outlined on the [ISMB page](https://www.iscb.org/ismb2024/submissions/abstracts), the abstract must adhere to the following BioVis guidelines:
 
-Unpublished work: Authors are required to submit an extended abstract (1500 words) by <time>{{ site.ismb_talk_submission_deadline }}</time>. The text should include a concise description of the work and have descriptive figures.
+**Published work:** Authors are required to submit a short abstract (250 words) by <time>{{ site.ismb_talk_submission_deadline }}</time>. Abstracts should include a concise description of the work and may include descriptive figures. The previously published paper **must** be submitted along with the abstract, unless the paper is open access.
 
--   [ISMB Abstract Guidelines]({{ site.ismb_abstract_submission_link }})
-<!-- TODO: Check link: * [**ISMB Talk Submission Form**](https://easychair.org/account/signin?l=Qtwki8qv7LdppT3m13DeXL#) (Select Biovis after logging in) -->
+**Unpublished work:** Authors are required to submit an extended abstract (1500 words) by <time>{{ site.ismb_talk_submission_deadline }}</time>. The text should include a concise description of the work and have descriptive figures.
 
 ### 3. Posters - _Submission Deadline: {{ site.ismb_poster_submission_deadline }} (with late posters deadline {{ site.ismb_poster_late_submission_deadline }})_
 
@@ -81,12 +80,9 @@ We invite participants to submit work in progress and preliminary results, previ
 
 #### Submission Guidelines
 
-Authors are required to submit a short abstract (250 words) and a supporting figure by <time>{{site.ismb_talk_submission_deadline}}</time>. Abstracts should include a concise description of an idea, work in progress, preliminary results, visualization challenges, or previously published work presented at other venues that is also relevant for the BioVis community. If the submission is based on previous work, the published paper **must** be submitted along with the summary, unless the paper is open access, where instead a direct link to the open access version should be provided.
+Authors are required to submit a short abstract (250 words) and a supporting figure by <time>{{site.ismb_talk_submission_deadline}}</time> through the [ISMB abstract submission site]({{ site.ismb_abstract_submission_link }}). Abstracts should include a concise description of an idea, work in progress, preliminary results, visualization challenges, or previously published work presented at other venues that is also relevant for the BioVis community. If the submission is based on previous work, the published paper **must** be submitted along with the summary, unless the paper is open access, where instead a direct link to the open access version should be provided.
 
 Poster preparation instructions will be e-mailed to authors of accepted submissions.
-
--   [ISMB Abstract Guidelines]({{ site.ismb_abstract_submission_link }})
-<!-- TODO: Check link: * [**ISMB Poster Submission Form**](https://easychair.org/account/signin?l=Qtwki8qv7LdppT3m13DeXL#) (Select Biovis after logging in) -->
 
 ## Important Dates
 
