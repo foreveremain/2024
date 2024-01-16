@@ -10,8 +10,7 @@ menu: main
 
 ### General chairs
 
-[Helena Jambor](https://helenajambor.wordpress.com/), TU Dresden, Germany  
-[Michael Krone](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/visuelle-big-data-analytik-in-den-lebenswissenschaften/team/jun-prof-dr-michael-krone/), University of Tübingen, Germany  
+[Qianwen Wang](https://qianwen.info/), Harvard University, USA  
 [Jan Byska](https://vis.uib.no/team/jan-byska/), Masaryk University, Czech Republic and University of Bergen, Norway
 
 ### Website chair
@@ -28,7 +27,7 @@ menu: main
 
 [Katarína Furmanová](https://www.muni.cz/en/people/374538-katarina-furmanova), Masaryk University, Czech Republic  
 [Aditeya Pandey](https://aditeyapandey.github.io/), Regeneron Genetics Center, United States  
-[Qianwen Wang](https://qianwen.info/), Harvard University, USA
+[Zeynep Gümüş](https://labs.icahn.mssm.edu/gumuslab/), Icahn School of Medicine at Mount Sinai, USA
 
 ### ISMB Liaison Chairs
 
@@ -39,9 +38,7 @@ menu: main
 ### Chairs
 
 [Barbora Kozlikova](https://www.fi.muni.cz/~xkozlik/), Masaryk University, Czech Republic  
-[Daniel Jönsson](https://liu.se/en/employee/danjo37), Linköping University, Sweden  
-[Renata Raidou](https://renataraidou.com/), TU Wien, Austria  
-[Sean O'Donoghue](https://www.garvan.org.au/about-us/people/seaodo), Garvan Institute of Medical Research, Sydney
+[Nils Gehlenborg](https://dbmi.hms.harvard.edu/people/nils-gehlenborg), Harvard Medical School, USA
 
 ## BioVis Meetup {{site.year}}
 

@@ -1,50 +1,50 @@
 # Site settings
-title: "BioVis 2023"
+title: "BioVis 2024"
 email: "website@biovis.net"
 description: "Biological Data Visualization"
-baseurl: "/2023"
+baseurl: "/2024"
 url: "http://biovis.net"
-conferenceshort: "BioVis 2023"
+conferenceshort: "BioVis 2024"
 
 #FIX ME: the event number is most likely not correct
 #eventNum: "12th"
 
-IEEE_conference_date: "October 22-27, 2023"
-IEEE_conference_place: "Melbourne, Australia"
+IEEE_conference_date: "October 13 - 18, 2024"
+IEEE_conference_place: "Florida, USA"
 
-year: 2023
+year: 2024
 
 # Old deadlines so I remember what they're called
 # When everything breaks
-IEEE_deadline_submission: "August 17, 2023"
-IEEE_deadline_notification: "August 24, 2023"
-IEEE_deadline_camera: "August 31, 2023"
+IEEE_deadline_submission: "TBA"
+IEEE_deadline_notification: "TBA"
+IEEE_deadline_camera: "TBA"
 #IEEE_deadline_poster: "TBD"
 
-ismb_conference_name: "ISMB/ECCB 2023"
-ismb_conference_link: "https://www.iscb.org/ismbeccb2023"
-ismb_conference_registration_link: "https://www.iscb.org/ismbeccb2023-register"
-ismb_conference_date: "July 23 - 27, 2023"
-ismb_conference_place: "Lyon, France (and virtual)"
-ismb_conference_key_dates_link: "https://www.iscb.org/ismbeccb2023-dates"
+ismb_conference_name: "ISMB 2024"
+ismb_conference_link: "https://www.iscb.org/ismb2024"
+ismb_conference_registration_link: "https://www.iscb.org/ismb2024-register"
+ismb_conference_date: "July 12 - 16, 2024"
+ismb_conference_place: "Montreal, Quebec, Canada - Palais des congrès de Montréal"
+ismb_conference_key_dates_link: "https://www.iscb.org/ismb2024/key-dates"
 
-ismb_cosi_date: "July 25, 2023"
+ismb_cosi_date: "July 14, 2024"
 
-ismb_paper_submission_deadline: "January 19, 2023"
-ismb_paper_conditional_acceptance: "March 9, 2023"
-ismb_paper_revision_deadline: "March 23, 2023"
-ismb_paper_final_acceptance: "April 10, 2023"
+ismb_paper_submission_deadline: "January 25, 2024"
+ismb_paper_conditional_acceptance: "March 7, 2024"
+ismb_paper_revision_deadline: "March 18, 2024"
+ismb_paper_final_acceptance: "April 2, 2024"
 
-ismb_talk_submission_deadline: "April 20, 2023"
-ismb_talk_acceptance: "May 11, 2023"
+ismb_talk_submission_deadline: "April 19, 2024"
+ismb_talk_acceptance: "May 13, 2024"
 
-ismb_poster_submission_deadline: "April 20, 2023"
-ismb_poster_acceptance: "May 11, 2023"
-ismb_poster_late_submission_deadline: "May 18, 2023"
-ismb_poster_late_acceptance: "May 25, 2023"
+ismb_poster_submission_deadline: "April 19, 2024"
+ismb_poster_acceptance: "May 13, 2024"
+ismb_poster_late_submission_deadline: "May 20, 2024"
+ismb_poster_late_acceptance: "May 28, 2024"
 
-ismb_paper_submission_link: "https://www.iscb.org/ismbeccb2023-submissions/proceedings"
-ismb_abstract_submission_link: "https://www.iscb.org/ismbeccb2023-submissions/abstracts"
+ismb_paper_submission_link: "https://www.iscb.org/ismb2024/submissions/proceedings"
+ismb_abstract_submission_link: "https://www.iscb.org/ismb2024/submissions/abstracts"
 
 #bmc_submission_deadline: ""
 #bmc_conditional_accept: ""
