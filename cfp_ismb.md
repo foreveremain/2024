@@ -19,7 +19,7 @@ The rapidly expanding field of biology creates enormous challenges for data visu
 
 The BioVis Interest Group organizes the interdisciplinary event BioVis, covering all aspects of visualization in biology. This symposium brings together researchers from the visualization, bioinformatics, and biology communities with the purpose of educating, inspiring, and engaging visualization researchers in problems in biological data visualization as well as bioinformatics and biology researchers in state-of-the-art visualization research.
 
-We invite submissions of original research articles as well as poster submissions.
+We invite submissions of original research articles as well as poster and talk submissions.
 
 ## Symposium Format
 
@@ -27,7 +27,7 @@ The symposium will be a one-day single-track event at [{{ site.ismb_conference_n
 
 ## Topics
 
-We invite contributions on all aspects of data visualization in biology, from molecular to cell, tissue, organism and population biology. Suggested topics for paper and poster submissions include, but are not limited to:
+We invite contributions on all aspects of data visualization in biology, from molecular to cell, tissue, organism and population biology. Suggested topics for paper, poster, and talk submissions include, but are not limited to:
 
 -   Genome and sequence data, including genomic variation data
 -   Multivariate omics data (transcriptomics, proteomics, metabolomics, etc.)
@@ -58,7 +58,7 @@ Novel, unpublished work can be submitted as a paper to the ISMB Proceedings. If 
 
 Authors are required to submit a full paper by <time>{{ site.ismb_paper_submission_deadline }}</time> through the [ISMB proceedings submission site]({{ site.ismb_paper_submission_link }}), and must adhere to the submission guidelines also outlined on [the same page]({{ site.ismb_paper_submission_link }}).
 
-**IMPORTANT: During submission please select the general subject of your submissions (the “AREA”), and then make sure to specify BioVis as the “TOPIC” of your submission to ensure your manuscript is assigned to our COSI.**
+**During submission, please select “General Computational Biology” as the “1st AREA” of your submission, and then make sure to specify “BioVis" as the “TOPIC” of your submission to ensure your manuscript is assigned to our COSI.**
 
 We encourage the use of digital video to enhance paper submissions, particularly if part or all of the work addresses interactive techniques. However, please note that OUP does not support videos as supplementary materials, so you will have to host the video elsewhere (e.g., YouTube).
 
