@@ -10,7 +10,7 @@ menu: main
 
 ### General chairs
 
-[Jan Byska](https://vis.uib.no/team/jan-byska/), Masaryk University, Czech Republic and University of Bergen, Norway
+[Jan Byska](https://vis.uib.no/team/jan-byska/), Masaryk University, Czech Republic and University of Bergen, Norway  
 [Qianwen Wang](https://qianwen.info/), Harvard University, USA
 
 ### Website chair
