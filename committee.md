@@ -38,7 +38,11 @@ menu: main
 ### Chairs
 
 [Barbora Kozlikova](https://www.fi.muni.cz/~xkozlik/), Masaryk University, Czech Republic  
-[Nils Gehlenborg](https://dbmi.hms.harvard.edu/people/nils-gehlenborg), Harvard Medical School, USA
+[Nils Gehlenborg](https://dbmi.hms.harvard.edu/people/nils-gehlenborg), Harvard Medical School, USA  
+[Laura Garrison](https://www.laura-garrison.com/), University of Bergen, Norway  
+[Eric Mörth](https://dbmi.hms.harvard.edu/people/eric-moerth), Harvard Medical School, USA  
+[Simon Warchol](https://simonwarchol.com/), Harvard University, USA  
+[Morgan Turner](https://morganlturner.com/), Harvard Medical School, USA
 
 ## BioVis Meetup {{site.year}}
 
