@@ -58,7 +58,7 @@ Novel, unpublished work can be submitted as a paper to the ISMB Proceedings. If 
 
 Authors are required to submit a full paper by <time>{{ site.ismb_paper_submission_deadline }}</time> through the [ISMB proceedings submission site]({{ site.ismb_paper_submission_link }}), and must adhere to the submission guidelines also outlined on [the same page]({{ site.ismb_paper_submission_link }}).
 
-**During submission, please select “General Computational Biology” as the “1st AREA” of your submission, and then make sure to specify “BioVis" as the “TOPIC” of your submission to ensure your manuscript is assigned to our COSI.**
+**During submission, please make sure to specify “BioVis" as the “TOPIC” (or primary COSI) of your submission to ensure your manuscript is assigned to our COSI.**
 
 We encourage the use of digital video to enhance paper submissions, particularly if part or all of the work addresses interactive techniques. However, please note that OUP does not support videos as supplementary materials, so you will have to host the video elsewhere (e.g., YouTube).
 
