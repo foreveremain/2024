@@ -61,6 +61,7 @@ h6 {
     font-weight: normal;
     line-height: 1.2;
     margin: 0.6em 0 0.4em 0;
+    clear: both;
 }
 
 h1 {
@@ -864,7 +865,6 @@ ul.post-list {
 .scheduledetails p {
     margin-bottom: 0;
 }
-
 
 /* --- */
 
