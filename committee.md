@@ -10,8 +10,8 @@ menu: main
 
 ### General chairs
 
-[Helena Jambor](https://helenajambor.wordpress.com/), TU Dresden, Germany  
-[Michael Krone](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/visuelle-big-data-analytik-in-den-lebenswissenschaften/team/jun-prof-dr-michael-krone/), University of Tübingen, Germany
+[Jan Byska](https://vis.uib.no/team/jan-byska/), Masaryk University, Czech Republic and University of Bergen, Norway  
+[Qianwen Wang](https://qianwen.info/), Harvard University, USA
 
 ### Website chair
 
@@ -25,36 +25,38 @@ menu: main
 
 ### Abstracts Chairs
 
-[Jan Byska](https://vis.uib.no/team/jan-byska/), Masaryk University, Czech Republic and University of Bergen, Norway  
-[Heba Sailem](https://www.hebasailem.com/), University of Oxford, UK  
-[Qianwen Wang](https://qianwen.info/), Harvard University, USA
+[Katarína Furmanová](https://www.muni.cz/en/people/374538-katarina-furmanova), Masaryk University, Czech Republic  
+[Aditeya Pandey](https://aditeyapandey.github.io/), Regeneron Genetics Center, United States  
+[Zeynep Gümüş](https://labs.icahn.mssm.edu/gumuslab/), Icahn School of Medicine at Mount Sinai, USA
 
 ### ISMB Liaison Chairs
 
 [Jim Procter](https://www.lifesci.dundee.ac.uk/people/jim-procter), University of Dundee, UK
 
-## BioVis Workshop @ IEEE VIS {{site.year}}
+## Bio+MedVis Challenge @ IEEE VIS {{site.year}}
 
 ### Chairs
 
-[Zeynep H Gumus](https://icahn.mssm.edu/profiles/zeynep-h-gumus2), Icahn School of Medicine at Mount Sinai, USA  
-[Thomas Höllt](https://www.thomashollt.com), TU Delft, The Netherlands  
-[Daniel Jönsson](https://liu.se/en/employee/danjo37), Linköping University, Sweden  
-[Renata Raidou](https://renataraidou.com/), TU Wien, Austria
+[Barbora Kozlikova](https://www.fi.muni.cz/~xkozlik/), Masaryk University, Czech Republic  
+[Nils Gehlenborg](https://dbmi.hms.harvard.edu/people/nils-gehlenborg), Harvard Medical School, USA  
+[Laura Garrison](https://www.laura-garrison.com/), University of Bergen, Norway  
+[Eric Mörth](https://dbmi.hms.harvard.edu/people/eric-moerth), Harvard Medical School, USA  
+[Simon Warchol](https://simonwarchol.com/), Harvard University, USA  
+[Morgan Turner](https://morganlturner.com/), Harvard Medical School, USA
 
 ## BioVis Meetup {{site.year}}
 
 ### Chairs
 
 [Helena Jambor](https://helenajambor.wordpress.com/), TU Dresden, Germany  
-[Heba Sailem](https://www.hebasailem.com/), King's College London, UK
+[Zeynep Gümüş](https://labs.icahn.mssm.edu/gumuslab/), Icahn School of Medicine at Mount Sinai, USA
 
 ## Steering Committee
 
 [Jim Procter](https://www.lifesci.dundee.ac.uk/people/jim-procter), University of Dundee, UK  
 [G. Elisabeta Marai](https://www.evl.uic.edu/marai/), University of Illinois at Chicago, USA  
 [Kay Nieselt](http://it.inf.uni-tuebingen.de/), University of Tübingen, Germany  
-[Marc Streit](http://marc-streit.com/), Johannes Kepler University Linz, Austria  
+[Michael Krone]([http://marc-streit.com/](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/visuelle-big-data-analytik-in-den-lebenswissenschaften/team/jun-prof-dr-michael-krone/]), University of Tübingen, Germany
 [Cagatay Turkay](https://warwick.ac.uk/fac/cross_fac/cim/people/cagatay-turkay/), University of Warwick, UK  
 [Jan Aerts](http://vda-lab.be), KU Leuven and U Hasselt, Belgium
 
